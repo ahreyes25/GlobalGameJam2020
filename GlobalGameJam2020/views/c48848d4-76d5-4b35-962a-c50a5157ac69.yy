@@ -30,7 +30,8 @@
         "3ce6d44c-1edb-431e-b183-deae1b37e3eb",
         "4a5198ed-eef2-430b-a472-d333d3ed8229",
         "1e5392a9-c8eb-41e8-988d-285157a287d5",
-        "5cfe1c20-6a73-4f87-9490-81e6863bc3c7"
+        "5cfe1c20-6a73-4f87-9490-81e6863bc3c7",
+        "5c05fedb-87df-46d0-b8dc-94ad2dd962e3"
     ],
     "filterType": "GMScript",
     "folderName": "Camera Scripts",

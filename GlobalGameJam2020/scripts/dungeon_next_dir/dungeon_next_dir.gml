@@ -16,7 +16,6 @@ switch (_new_last_dir) {
 	case DIR.RIGHT:	_next_dir = choose(DIR.LEFT, DIR.DOWN, DIR.UP);		break;
 	case DIR.UP:	_next_dir = choose(DIR.LEFT, DIR.RIGHT, DIR.DOWN);	break;
 	case DIR.DOWN:	_next_dir = choose(DIR.LEFT, DIR.RIGHT, DIR.UP);	break;
-	default:		irandom(3);
 }
 
 switch (_next_dir) {

@@ -53,6 +53,6 @@ if (in_bounds(_exit_i, _exit_j, GRID)) {
 }
 
 if (in_bounds(_exit_i, _exit_j, GRID))
-	ds_grid_set(GRID, _exit_i, _exit_j, LAND.EMPTY);
+	ds_grid_set(GRID, _exit_i, _exit_j, LAND.GROUND);
 	
 return [_exit_i, _exit_j];
