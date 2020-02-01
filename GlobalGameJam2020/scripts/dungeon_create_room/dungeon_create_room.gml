@@ -11,8 +11,10 @@ var _room_height	= argument3;
 for (var i = _i; i < _i + _room_width; i++) {
 	for (var j = _j; j < _j + _room_height; j++) {
 		if (in_bounds(i, j, GRID)) {
-			if (ds_grid_get(GRID, i, j) == LAND.SOLID)
+			if (ds_grid_get(GRID, i, j) == LAND.SOLID) {
 				SPACE++;
+				ds_list_add(OPEN_SPACES, [i, j]);
+			}
 		}
 			
 		if (in_bounds(i, j, GRID))

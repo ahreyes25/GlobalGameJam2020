@@ -20,7 +20,6 @@ var _i					= _start_i;
 var _j					= _start_j;
 var _last_dir			= irandom(3);
 
-//while (SPACE < _iterations) {
 for (var i = 0; i < _iterations; i++) {
 	
 	// Generate Hall
@@ -41,8 +40,10 @@ for (var i = 0; i < _iterations; i++) {
 		_last_dir	= _next_space[2];
 		
 		if (in_bounds(_i, _j, GRID)) {
-			if (ds_grid_get(GRID, _i, _j) == LAND.SOLID)
+			if (ds_grid_get(GRID, _i, _j) == LAND.SOLID) {
 				SPACE++;
+				ds_list_add(OPEN_SPACES, [_i, _j]);
+			}
 		}
 		
 		if (in_bounds(_i, _j, GRID))
@@ -50,9 +51,24 @@ for (var i = 0; i < _iterations; i++) {
 	}
 }
 
+for (var i = 0; i < GRID_WIDTH; i++) {
+	for (var j = 0; j < GRID_HEIGHT; j++) {
+		if (ds_grid_get(GRID, i, j) == LAND.SOLID)
+			instance_create_layer(i * UNIT_SIZE, j * UNIT_SIZE, "Dungeon", obj_solid);
+	}
+}
 
+// Create Top & Bottom Borders
+for (var i = -1; i <= GRID_WIDTH; i++) {
+	instance_create_layer(i * UNIT_SIZE, -1 * UNIT_SIZE, "Dungeon", obj_solid);
+	instance_create_layer(i * UNIT_SIZE, GRID_HEIGHT * UNIT_SIZE, "Dungeon", obj_solid);
+}
 
-
+// Create Left & Right Borders
+for (var j = -1; j <= GRID_HEIGHT; j++) {
+	instance_create_layer(-1 * UNIT_SIZE, j * UNIT_SIZE, "Dungeon", obj_solid);
+	instance_create_layer(GRID_WIDTH * UNIT_SIZE, j * UNIT_SIZE, "Dungeon", obj_solid);
+}
 
 
 

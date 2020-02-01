@@ -2,7 +2,7 @@
 /// @param duration*
 /// @param zoom_speed*
 
-var _camera = camera_get_current();
+var _camera = obj_camera;
 
 #region Arguments
 if (argument_count == 2) {
@@ -21,6 +21,9 @@ else {
 	var _speed	= _camera.zoom_speed_base;
 }
 #endregion
+
+// Round Zoom to Tens Place
+_zoom = round((_zoom * 100) / 10) / 10;
 
 _camera.zoom_factor_target	= _zoom;
 _camera.zoom_time			= _time;

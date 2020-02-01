@@ -24,8 +24,10 @@ else {
 for (var i = _i; i <_i + _end_i; i++) {
 	for (var j = _j; j < _j + _end_j; j++) {
 		if (in_bounds(i, j, GRID)) {
-			if (ds_grid_get(GRID, i, j) == LAND.SOLID)
+			if (ds_grid_get(GRID, i, j) == LAND.SOLID) {
 				SPACE++;
+				ds_list_add(OPEN_SPACES, [i, j]);
+			}
 		}
 			
 		if (in_bounds(i, j, GRID))
@@ -44,8 +46,10 @@ while (!in_bounds(_exit_i, _exit_j, GRID)) {
 }
 
 if (in_bounds(_exit_i, _exit_j, GRID)) {
-	if (ds_grid_get(GRID, _exit_i, _exit_j) == LAND.SOLID)
+	if (ds_grid_get(GRID, _exit_i, _exit_j) == LAND.SOLID) {
 		SPACE++;
+		ds_list_add(OPEN_SPACES, [_exit_i, _exit_j]);
+	}
 }
 
 if (in_bounds(_exit_i, _exit_j, GRID))

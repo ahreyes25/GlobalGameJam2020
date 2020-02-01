@@ -1,9 +1,5 @@
-if (keyboard_check_pressed(ord("R"))) {
-	room_restart();
-	ds_grid_clear(GRID, LAND.SOLID);
-	automate_testing = false;
-	SPACE = 0;
-}
+if (keyboard_check_pressed(ord("R"))) 
+	reset_level();
 	
 if (keyboard_check_pressed(vk_escape))
 	game_end();

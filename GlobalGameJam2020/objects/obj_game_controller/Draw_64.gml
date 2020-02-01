@@ -1,1 +1,1 @@
-ds_grid_draw(GRID, 10, 10, 10);
+//ds_grid_draw(GRID, 10, 10, 10);

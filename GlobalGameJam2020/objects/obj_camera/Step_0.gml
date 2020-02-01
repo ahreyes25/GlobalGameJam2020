@@ -25,3 +25,10 @@ projmat = matrix_build_projection_ortho(width * zoom_factor, height * zoom_facto
 camera_set_proj_mat(camera, projmat);
 camera_apply(camera);
 view_camera[0] = camera;
+
+#region Zoom Camera
+if (mouse_wheel_down())
+	camera_set_zoom_factor(camera_get_zoom_factor() * 0.9);
+if (mouse_wheel_up())
+	camera_set_zoom_factor(camera_get_zoom_factor() * 1.1);
+#endregion
