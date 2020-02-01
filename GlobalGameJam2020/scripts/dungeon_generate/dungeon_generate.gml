@@ -8,7 +8,7 @@ var _room_width_min		= 4;
 var _room_width_max		= 12;
 var _room_height_min	= 4;
 var _room_height_max	= 8;
-var _hall_width_min		= 2;
+var _hall_width_min		= 3;
 var _hall_width_max		= 4;
 var _hall_length_min	= 6;
 var _hall_length_max	= 12;
@@ -136,7 +136,7 @@ var _world_coords = grid_to_world(_right_i, _bottom_j);
 instance_create_layer(_world_coords[0], _world_coords[1], "Dungeon", obj_end);
 #endregion
 
-// Draw Dungeon Tiles
+#region Draw Dungeon Tiles
 var lay_id	= layer_get_id("Tiles");
 var map_id	= layer_tilemap_get_id(lay_id);
 
@@ -162,7 +162,19 @@ for (var i = 0; i < GRID_WIDTH; i++) {
 		}
 	}
 }
+#endregion
 
+#region Create Rocks
+var _rock_chance = 0.1;
+for (var i = 0; i < GRID_WIDTH; i++) {
+	for (var j = 0; j < GRID_HEIGHT; j++) {
+		if (GRID[# i, j] == LAND.GROUND && chance(_rock_chance)) {
+			var _world_coords = grid_to_world(i, j);
+			var _rock = instance_create_layer(_world_coords[0], _world_coords[1], "Dungeon", obj_rock);
+		}
+	}
+}
+#endregion
 
 
 
