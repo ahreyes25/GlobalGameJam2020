@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2c61e587-8294-4083-b6f2-57194516898a",
+            "Value": {
+                "id": "ecdd27eb-c51c-49a6-9f4a-fe87ba8c66d3",
+                "resourcePath": "sprites\\spr_compass\\spr_compass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d015c51-26a4-4b11-824f-45d584995d69",
             "Value": {
                 "id": "cc1b7007-a509-4565-aca3-e06f597e2830",
@@ -543,6 +551,14 @@
             }
         },
         {
+            "Key": "577ebe03-c34e-4e7c-b13b-5b36acedcf92",
+            "Value": {
+                "id": "93fa158c-5553-4cb7-94bb-4a278a4b2d68",
+                "resourcePath": "sprites\\spr_cursor\\spr_cursor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58151324-849e-4345-99f8-01c27176e073",
             "Value": {
                 "id": "e2406590-bdee-478d-8c61-c2958c2a7697",
@@ -764,6 +780,14 @@
                 "id": "ba6f93b8-2a5e-477c-b5f6-05c59b81b8e5",
                 "resourcePath": "scripts\\_camera_apply_screen_shake\\_camera_apply_screen_shake.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7ca5b42f-9075-4028-8e6c-a8f8116794ba",
+            "Value": {
+                "id": "96b3b702-6028-43e2-8d34-2ff33ce2fe24",
+                "resourcePath": "sprites\\spr_goal_arrow\\spr_goal_arrow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1251,6 +1275,14 @@
             "Value": {
                 "id": "9eab598e-bdbb-4ad5-887b-818d089dfe36",
                 "resourcePath": "views\\c48848d4-76d5-4b35-962a-c50a5157ac69.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c57947f6-6f66-46e3-8b2e-0ec9a49452a6",
+            "Value": {
+                "id": "6c3c749a-71a1-461d-80c1-41fe395d4281",
+                "resourcePath": "views\\c57947f6-6f66-46e3-8b2e-0ec9a49452a6.yy",
                 "resourceType": "GMFolder"
             }
         },

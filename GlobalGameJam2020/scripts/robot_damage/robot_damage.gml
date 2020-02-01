@@ -15,4 +15,13 @@ else {
 		case 4:		obj_robot.light_health		= clamp(obj_robot.light_health - _damage,	0, 100);	break;
 	}
 }
-obj_robot.flashing = true;
+obj_robot.flashing	= true;
+obj_robot.target	= robot_get_target(obj_robot.id);
+with (obj_robot) {
+	path_end();
+	path_clear_points(path);
+	path_clear_points(dungeon_path);
+	path_position = 0;
+	path_index_current = 0;
+	state = robot_state_get_dungeon_path;
+}

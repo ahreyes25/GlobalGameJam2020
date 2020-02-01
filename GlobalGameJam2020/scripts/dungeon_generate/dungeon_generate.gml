@@ -110,6 +110,14 @@ for (var i = 0; i < GRID_WIDTH; i++) {
 			if (i < _left_i && j < _top_j) {
 				_left_i = i;
 				_top_j  = j;
+				
+				// Space Exists To Left or Right
+				if (GRID[# i + 1, j] != LAND.SOLID)
+					_left_i = i + 1;
+				else if (GRID[# i - 1, j] != LAND.SOLID)
+					_left_i = _left_i;
+				else
+					continue;
 			}
 		}
 	}

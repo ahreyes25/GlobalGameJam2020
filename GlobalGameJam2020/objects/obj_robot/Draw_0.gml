@@ -6,8 +6,8 @@ if (flashing)
 draw_self();
 shader_reset();
 
-draw_text(x, y + 10, string(path_index_current) + "/" + string(path_get_number(dungeon_path)));
-draw_text(x, y + 30, "x: " + string(x) + "/" + string(path_point_x) + ", y: " + string(y) + "/" + string(path_point_y));
+if (defined(target))
+	draw_text(x, y + 10, object_get_name(target.object_index));
 draw_set_color(c_purple);
 draw_path(dungeon_path, x, y, true);
 draw_set_color(c_white);

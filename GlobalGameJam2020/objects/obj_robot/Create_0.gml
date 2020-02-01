@@ -1,6 +1,5 @@
 state			= robot_state_get_dungeon_path;
 target			= undefined;
-target_goal		= undefined;
 
 // Stats
 glass_health	= 100;
