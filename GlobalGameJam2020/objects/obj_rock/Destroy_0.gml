@@ -11,3 +11,5 @@ else
 var _scorch = instance_create_layer(x, (bbox_bottom + bbox_top) / 2, "Instances", obj_scorch);
 _scorch.image_alpha = 0.5
 _scorch.image_xscale = choose(-1, 1);
+
+camera_set_screen_shake(3, 20);

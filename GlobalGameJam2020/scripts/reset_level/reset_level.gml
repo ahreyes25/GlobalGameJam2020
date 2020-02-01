@@ -13,3 +13,5 @@ path_clear_points(obj_robot.path);
 path_clear_points(obj_robot.dungeon_path);
 obj_robot.target = undefined;
 obj_robot.target = robot_state_idle;
+
+surface_free(obj_game_controller.light_surface);
