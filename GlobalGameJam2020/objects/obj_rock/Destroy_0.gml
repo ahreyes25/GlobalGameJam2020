@@ -1,14 +1,13 @@
-//rock_bit_create(x, y, irandom_range(1, 3), depth - 1);
-var _cloud = animate_object_create((bbox_left + bbox_right) / 2, bbox_bottom, spr_dust_cloud, depth - 1, 1, 1.5, id, 1, false);
-_cloud.image_alpha = 0.75;
-
-if (sprite_index == spr_rock_small) {
-	_cloud.image_xscale = 0.5;
-	_cloud.image_yscale = 0.5;
-}
-else if (sprite_index == spr_rock_medium || sprite_index == spr_rock_tall) {
-	_cloud.image_xscale = 0.75;
-	_cloud.image_yscale = 0.75;
-}
-
-part_particles_create(global.part_system, x, (bbox_top + bbox_bottom) / 2, global.pt_dust_smoke, 5);
+var _spd = 2;
+if (sprite_index == spr_rock_small)
+	animate_object_create(x, y, spr_rock_small_explode, depth - 1, image_xscale, _spd, id, 1, false);
+else if (sprite_index == spr_rock_medium)
+	animate_object_create(x, y, spr_rock_med_explode, depth - 1, image_xscale, _spd, id, 1, false);
+else if (sprite_index == spr_rock_tall)
+	animate_object_create(x, y, spr_rock_tall_explode, depth - 1, image_xscale, _spd, id, 1, false);
+else
+	animate_object_create(x, y, spr_rock_big_explode, depth - 1, image_xscale, _spd, id, 1, false);
+	
+var _scorch = instance_create_layer(x, (bbox_bottom + bbox_top) / 2, "Instances", obj_scorch);
+_scorch.image_alpha = 0.5
+_scorch.image_xscale = choose(-1, 1);

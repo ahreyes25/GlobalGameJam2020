@@ -6,8 +6,10 @@ var _solid	= collision_point(x, y, obj_solid, false, false);
 
 if (defined(_dest) || defined(_solid)) {
 	
-	if (defined(_dest))
+	if (defined(_dest)) {
 		_dest.life -= damage;	
+		_dest.flashing = true;
+	}
 	
 	instance_destroy();
 	if (defined(_solid))

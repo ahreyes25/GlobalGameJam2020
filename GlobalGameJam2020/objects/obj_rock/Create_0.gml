@@ -19,8 +19,9 @@ sprite_index = choose(
 	spr_rock_tall, 
 	spr_rock_large
 );
-image_speed	 = 0;
-image_index	 = irandom(image_number - 1);
+image_speed		= 0;
+image_index		= 0;
+image_xscale	= choose(-1, 1);
 
 var _other_rock = collision_rectangle(bbox_left - sprite_width / 2, bbox_top - sprite_height / 2, bbox_right + sprite_width / 2, bbox_bottom + sprite_height / 2, obj_rock, false, true);
 var _while_count = 0;

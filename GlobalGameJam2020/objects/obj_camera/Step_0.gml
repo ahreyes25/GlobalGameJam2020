@@ -26,6 +26,7 @@ camera_set_proj_mat(camera, projmat);
 camera_apply(camera);
 view_camera[0] = camera;
 
+/*
 #region Zoom Camera
 if (mouse_wheel_down())
 	camera_set_zoom_factor(camera_get_zoom_factor() * 0.9);
