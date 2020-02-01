@@ -1,0 +1,1 @@
+screen_flash_alpha -= screen_flash_decay;
