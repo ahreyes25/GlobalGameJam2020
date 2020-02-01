@@ -4,6 +4,7 @@
     "mvc": "1.1",
     "name": "c48848d4-76d5-4b35-962a-c50a5157ac69",
     "children": [
+        "5c05fedb-87df-46d0-b8dc-94ad2dd962e3",
         "b78aaa15-94a7-48a7-8efe-c0de606bf41f",
         "fb920a80-c6db-47c0-aa8c-5b4927eaf870",
         "d5aeb9bc-58ba-484d-9392-3eb162c11c4a",
@@ -30,8 +31,7 @@
         "3ce6d44c-1edb-431e-b183-deae1b37e3eb",
         "4a5198ed-eef2-430b-a472-d333d3ed8229",
         "1e5392a9-c8eb-41e8-988d-285157a287d5",
-        "5cfe1c20-6a73-4f87-9490-81e6863bc3c7",
-        "5c05fedb-87df-46d0-b8dc-94ad2dd962e3"
+        "5cfe1c20-6a73-4f87-9490-81e6863bc3c7"
     ],
     "filterType": "GMScript",
     "folderName": "Camera Scripts",

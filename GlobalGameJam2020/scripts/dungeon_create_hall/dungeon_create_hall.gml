@@ -38,11 +38,16 @@ for (var i = _i; i <_i + _end_i; i++) {
 var _exit_i = irandom_range(_i, _i + _end_i - 1);
 var _exit_j = irandom_range(_j, _j + _end_j - 1);
 
+var _loop_count = 0;
 while (!in_bounds(_exit_i, _exit_j, GRID)) {
 	if (_exit_i >= GRID_WIDTH)		_exit_i--;
 	if (_exit_i < 0)				_exit_i++;
 	if (_exit_j >= GRID_HEIGHT)		_exit_j--;
 	if (_exit_j < 0)				_exit_j++;
+	
+	_loop_count++;
+	if (_loop_count >= 1000)
+		break;
 }
 
 if (in_bounds(_exit_i, _exit_j, GRID)) {

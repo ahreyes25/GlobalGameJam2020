@@ -14,3 +14,6 @@ alarm_roll_cooldown	= 4;
 // Other 
 cursor			= instance_create_layer(x, y, "Controllers", obj_cursor);
 cursor.owner	= id;
+gun				= instance_create_layer(x, y - sprite_height / 2, "Instances", obj_gun);
+gun.owner		= id;
+lights			= light_double_create(x, y - sprite_height / 2);

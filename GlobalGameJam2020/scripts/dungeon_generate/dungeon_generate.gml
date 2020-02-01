@@ -51,6 +51,7 @@ for (var i = 0; i < _iterations; i++) {
 		if (in_bounds(_i, _j, GRID))
 			ds_grid_set(GRID, _i, _j, LAND.GROUND);
 	}
+	show_debug_message(string(current_time) + ": " + string(i) + " -- Generating...");
 }
 #endregion
 

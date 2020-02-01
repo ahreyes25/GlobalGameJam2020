@@ -27,6 +27,10 @@ for (var i = 0; i < GRID_WIDTH; i++) {
 	}	
 }
 
+// MP Grid
+global.mp_grid = mp_grid_create(0, 0, GRID_WIDTH, GRID_HEIGHT, UNIT_SIZE, UNIT_SIZE);
+#macro MP_GRID global.mp_grid
+
 // User Settings
 global.screen_shake_mult	= 1.0;
 #macro SHAKE_MULT			global.screen_shake_mult
