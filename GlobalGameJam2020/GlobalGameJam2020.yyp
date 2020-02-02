@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "18d49ad7-9f56-4c63-bf5d-2c209d3eb7f8",
+            "Value": {
+                "id": "af31554b-b0b2-41b5-8eaf-172979d34316",
+                "resourcePath": "rooms\\rm_title\\rm_title.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1aec7262-aa60-4a82-b104-d06042e89898",
             "Value": {
                 "id": "35ba1d5e-1fde-4c14-9af5-1b319b2c05a4",
@@ -236,6 +244,14 @@
                 "id": "ae92dde4-a0e1-4b94-a0fb-30bbc6bbdfe9",
                 "resourcePath": "sprites\\spr_tileset\\spr_tileset.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "343d3f79-96c0-4449-8dfe-15776ca788d3",
+            "Value": {
+                "id": "6e4df46e-3ae9-4701-9d25-14a7d9cfe459",
+                "resourcePath": "objects\\obj_menu\\obj_menu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -631,6 +647,14 @@
             }
         },
         {
+            "Key": "627342bf-a733-4479-9b4b-13e1cf91e015",
+            "Value": {
+                "id": "f683005a-ec21-43ac-a029-3ea2a3daa11d",
+                "resourcePath": "scripts\\dungeon_spawn_enemies\\dungeon_spawn_enemies.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6335a980-8431-4496-84d3-40860c87a299",
             "Value": {
                 "id": "2b33890f-7be5-4dfe-b5a5-bf638263ec4a",
@@ -772,6 +796,14 @@
                 "id": "54171bc7-2e85-42a0-85d2-d89e88f093e0",
                 "resourcePath": "scripts\\camera_reset_lock_x\\camera_reset_lock_x.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "789e6053-a373-4818-b164-235935cfa9c8",
+            "Value": {
+                "id": "010a1b4e-76f2-4f89-9a2c-e2074348e69f",
+                "resourcePath": "sprites\\spr_title\\spr_title.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1850,6 +1882,7 @@
         "cb8b6cf0-8985-4242-a884-87d07f784495",
         "c5da096a-b860-4c0a-bfc5-ae04ba61b397",
         "cf279195-a542-4c17-9b27-35a456aaef7c",
+        "627342bf-a733-4479-9b4b-13e1cf91e015",
         "5c05fedb-87df-46d0-b8dc-94ad2dd962e3",
         "b78aaa15-94a7-48a7-8efe-c0de606bf41f",
         "fb920a80-c6db-47c0-aa8c-5b4927eaf870",

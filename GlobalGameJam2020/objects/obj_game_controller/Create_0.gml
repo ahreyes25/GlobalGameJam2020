@@ -8,6 +8,7 @@ dungeon_created		= false;
 player				= undefined;
 camera				= undefined;
 robot				= undefined;
+start				= false;
 light_surface		= surface_create(room_width, room_height);
 instance_create_layer(0, 0, "Controllers", obj_dungeon_generator);
 
