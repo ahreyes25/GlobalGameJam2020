@@ -7,10 +7,11 @@
         "3146c2e7-7cac-4e33-a28f-ff091bf08f47",
         "d8f488a4-46b6-4a4e-b4a9-53b40f489304",
         "59285c87-50a4-4c5c-aba7-c7e3323b2e7f",
-        "d571f7bb-7565-4f46-9816-a05b9619a2ee"
+        "d571f7bb-7565-4f46-9816-a05b9619a2ee",
+        "de974515-039b-48ee-93e4-8a01d8942d91"
     ],
     "filterType": "GMObject",
-    "folderName": "Player",
+    "folderName": "Player Objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

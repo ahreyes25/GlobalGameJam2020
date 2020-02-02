@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1a6142c1-74cd-4983-bea6-8cdbbdc1ca50",
+            "Value": {
+                "id": "0753d705-ccf6-4661-b49a-8fabd90b962b",
+                "resourcePath": "objects\\obj_enemy_spawn\\obj_enemy_spawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1aec7262-aa60-4a82-b104-d06042e89898",
             "Value": {
                 "id": "35ba1d5e-1fde-4c14-9af5-1b319b2c05a4",
@@ -252,6 +260,14 @@
                 "id": "9812d3b1-bfae-4c3a-8d7e-e313b3be4eef",
                 "resourcePath": "objects\\obj_player_object\\obj_player_object.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "31791201-3033-4d48-8b81-073d5120e651",
+            "Value": {
+                "id": "4a3c0144-0851-4744-be57-c115d054b1a4",
+                "resourcePath": "views\\31791201-3033-4d48-8b81-073d5120e651.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -687,6 +703,14 @@
             }
         },
         {
+            "Key": "5c2ca93b-f521-4563-b813-dea1b0557a75",
+            "Value": {
+                "id": "a86f2f4f-40d8-4ac5-a839-02ff66058f43",
+                "resourcePath": "sprites\\spr_enemy_2\\spr_enemy_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5cfe1c20-6a73-4f87-9490-81e6863bc3c7",
             "Value": {
                 "id": "7abc4281-5088-4ffd-aa63-85c23cc52053",
@@ -815,6 +839,14 @@
             }
         },
         {
+            "Key": "6f3f2500-842c-4087-9e49-8a4976030c8d",
+            "Value": {
+                "id": "372fd967-b512-4c33-b1ee-fd8641443979",
+                "resourcePath": "sprites\\spr_enemy_spawn\\spr_enemy_spawn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6fe41dc6-4d24-43cb-a403-95dd9f32aed1",
             "Value": {
                 "id": "c3ad141a-f6ba-4193-82ad-44783d384963",
@@ -887,6 +919,14 @@
             }
         },
         {
+            "Key": "7836378f-30cb-47da-9c68-c6a9cb63872e",
+            "Value": {
+                "id": "a9194bc0-ac71-4b69-a67c-7aae489400df",
+                "resourcePath": "objects\\obj_enemy_shoot\\obj_enemy_shoot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "789e6053-a373-4818-b164-235935cfa9c8",
             "Value": {
                 "id": "010a1b4e-76f2-4f89-9a2c-e2074348e69f",
@@ -911,11 +951,27 @@
             }
         },
         {
+            "Key": "7b838f75-2ce1-49df-bb8d-977688b0f474",
+            "Value": {
+                "id": "b415edad-ae78-44ee-8343-e3adc0045e69",
+                "resourcePath": "scripts\\enemy_gun_state_move\\enemy_gun_state_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7ca5b42f-9075-4028-8e6c-a8f8116794ba",
             "Value": {
                 "id": "96b3b702-6028-43e2-8d34-2ff33ce2fe24",
                 "resourcePath": "sprites\\spr_goal_arrow\\spr_goal_arrow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7cee5a91-e188-4b11-bb2a-4ec040658121",
+            "Value": {
+                "id": "1d101693-5103-406e-a2f8-b3046389e6ae",
+                "resourcePath": "views\\7cee5a91-e188-4b11-bb2a-4ec040658121.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1124,6 +1180,14 @@
                 "id": "c6be96f8-70da-4f31-aaf9-a9fe1a4c82ca",
                 "resourcePath": "scripts\\global_game_data\\global_game_data.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "925a032b-bd31-4b82-bcb9-fe82c3b25da9",
+            "Value": {
+                "id": "82763d7f-8396-4a03-9f0b-e2b96ba7a2d3",
+                "resourcePath": "objects\\obj_bullet_enemy\\obj_bullet_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1492,6 +1556,14 @@
                 "id": "8049aefd-8b4e-4f30-bac0-60fe7d0a072c",
                 "resourcePath": "objects\\obj_start\\obj_start.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bf586169-c05a-475d-9074-0876a54442cb",
+            "Value": {
+                "id": "974b9178-ca1c-4826-9d36-3011696c7ce3",
+                "resourcePath": "scripts\\enemy_gun_state_shoot\\enemy_gun_state_shoot.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1879,6 +1951,14 @@
             }
         },
         {
+            "Key": "e4c94b4c-a748-4d58-ae52-6f6ab664ff6a",
+            "Value": {
+                "id": "b93b6752-3822-4ab3-80f1-611e253aeda5",
+                "resourcePath": "objects\\obj_gun_enemy\\obj_gun_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e5e0b567-c356-42b9-9653-9efe0eb8bf94",
             "Value": {
                 "id": "c2d8ffd1-7c10-47e3-ac5f-f07430a124ed",
@@ -1987,6 +2067,14 @@
             "Value": {
                 "id": "f9b3196d-a614-4d99-8a39-b96056d88680",
                 "resourcePath": "scripts\\rock_bit_create\\rock_bit_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "efca607e-f1c3-41fa-8afd-ef72a0494a9e",
+            "Value": {
+                "id": "66b8c395-fcbc-46d1-8d11-a8bade0653a2",
+                "resourcePath": "scripts\\enemy_gun_state_idle\\enemy_gun_state_idle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2184,6 +2272,9 @@
         "dbff2572-8b74-4ac1-9d09-d561372f8517",
         "3323bcff-9c21-4c51-a3b8-82d1e58502f3",
         "b5e86f77-2de3-48cd-a598-c704ee5b6217",
+        "efca607e-f1c3-41fa-8afd-ef72a0494a9e",
+        "7b838f75-2ce1-49df-bb8d-977688b0f474",
+        "bf586169-c05a-475d-9074-0876a54442cb",
         "9b721f9c-1a06-4139-85bb-9fa3e213e957",
         "46ecb064-1a5f-4d3a-be2b-0cc413e3deca",
         "345fe008-cfed-4f29-8ad1-6c098962577d",

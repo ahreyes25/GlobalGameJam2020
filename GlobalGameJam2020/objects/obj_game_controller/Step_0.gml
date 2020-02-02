@@ -9,4 +9,6 @@ if (dungeon_created && !exists(obj_dungeon_generator) && !defined(player)) {
 		instance_create_layer(player.x, player.y, "Controllers", obj_camera);
 		
 	alarm[0] = 1;
+	
+	dungeon_spawn_enemies();
 }	

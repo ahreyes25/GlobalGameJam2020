@@ -47,3 +47,6 @@ audio_listener_orientation(0, 1, 0, 0, 0, 1);
 // Other
 global.current_time_frame	= 0;
 #macro CURRENT_TIME_FRAME	global.current_time_frame
+
+global.n_spawners			= 0;
+global.n_spawns_allowed		= 10;

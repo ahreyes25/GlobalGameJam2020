@@ -7,6 +7,7 @@ scale			= 1;
 roll_cooldown	= 30;
 repairing		= false;
 touching_robot	= false;
+flashing		= false;
 
 #region Alarms
 alarm_knockback		= 2;
