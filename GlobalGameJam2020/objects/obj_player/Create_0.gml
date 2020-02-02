@@ -24,3 +24,4 @@ watering_can.owner	= id;
 lights			= light_double_create(x, y - 24);
 
 equipped		= gun;
+sfx_emitter		= audio_emitter_create();

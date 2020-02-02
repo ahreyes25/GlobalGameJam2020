@@ -9,3 +9,11 @@ if (path_position >= 1) {
 	state = robot_state_get_next_path;
 	return;
 }
+
+/*
+if (!sfx_played_walk && (current_frame() == 1 || current_frame() == 6)) {
+	sfx_play_array(sfx_emitter, sfx_robot_step);
+	sfx_played_walk = true;
+}
+else if (current_frame() != 1 && current_frame() != 6)
+	sfx_played_walk = false;

@@ -36,3 +36,8 @@ path_point_x		= undefined;
 path_point_y		= undefined;
 
 shader_pulse_color_create();
+
+// Sounds
+//sfx_played_walk	= false;
+sfx_emitter		= audio_emitter_create();
+audio_emitter_gain(sfx_emitter, 0.5);

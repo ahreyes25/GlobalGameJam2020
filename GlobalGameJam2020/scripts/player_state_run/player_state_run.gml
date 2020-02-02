@@ -8,3 +8,4 @@ clipping_check();
 
 // State Transitions
 player_state_check_idle();
+player_state_check_roll();

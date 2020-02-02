@@ -6,5 +6,5 @@ if (argument_count == 1)
 else
 	var _obj = id;
 #endregion
-var _frame = _obj.image_index;
+
 return floor(_obj.image_index);

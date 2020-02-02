@@ -41,15 +41,19 @@ for (var i = 0; i < _iterations; i++) {
 		var _j		= _next_space[1];
 		_last_dir	= _next_space[2];
 		
-		if (in_bounds(_i, _j, GRID)) {
-			if (ds_grid_get(GRID, _i, _j) == LAND.SOLID) {
-				SPACE++;
-				ds_list_add(OPEN_SPACES, [_i, _j]);
+		for (var ii = _i - 1; ii < _i + 1; ii++) {
+			for (var jj = _j - 1; jj < _j + 1; jj++) {
+				if (in_bounds(ii, jj, GRID)) {
+					if (ds_grid_get(GRID, ii, jj) == LAND.SOLID) {
+						SPACE++;
+						ds_list_add(OPEN_SPACES, [ii, jj]);
+					}
+				}
+		
+				if (in_bounds(ii, jj, GRID))
+					ds_grid_set(GRID, ii, jj, LAND.GROUND);
 			}
 		}
-		
-		if (in_bounds(_i, _j, GRID))
-			ds_grid_set(GRID, _i, _j, LAND.GROUND);
 	}
 	show_debug_message(string(current_time) + ": " + string(i) + " -- Generating...");
 }

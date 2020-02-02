@@ -1,17 +1,13 @@
-Total: 8 hrs
-- show score on game over
-- import music & sounds (30 min)
+Total:
 - player knockback (20 min)
-- item pickups
 
-Leftover: 4 hrs
+Leftover:
 - crawl under robot (30 min)
 - player rolling (30 min)
 - have bandits shoot rocks
 - portal crumble
 - portal shadow
 - enemy spawn effect
-- next level doors
 - damage cactus visuals
 - explosion art
 
@@ -21,3 +17,9 @@ Leftover: 4 hrs
 - movement particles
 - charging stations
 - doors
+
+- gun shooting
+- glass breaking
+- enemy spawn
+- explosion
+- robot walking

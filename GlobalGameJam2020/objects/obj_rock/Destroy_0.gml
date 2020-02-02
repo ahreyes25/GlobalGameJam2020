@@ -14,3 +14,4 @@ _scorch.image_xscale = random_range(1, 2) * choose(1, -1);
 _scorch.image_yscale = abs(_scorch.image_xscale);
 
 camera_set_screen_shake(3, 20);
+audio_play_sound(sfx_crumble, 0, 0);

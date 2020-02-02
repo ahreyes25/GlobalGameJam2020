@@ -17,3 +17,6 @@ script_execute(state);
 
 if (flashing && alarm[2] == -1)
 	alarm[2] = 3;
+	
+if (exists(obj_player) && obj_player.state == player_state_cry)
+	visible = false;

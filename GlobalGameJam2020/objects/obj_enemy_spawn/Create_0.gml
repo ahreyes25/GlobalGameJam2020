@@ -4,6 +4,7 @@ alarm[0]	= irandom(spawn_time);
 flashing	= false;
 image_xscale	= 0.75;
 image_yscale	= 0.75;
+sfx_emitter = audio_emitter_create();
 
 var _spawn = collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_enemy_spawn, false, true);
 if (defined(_spawn)) {

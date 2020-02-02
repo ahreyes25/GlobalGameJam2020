@@ -47,6 +47,8 @@ if (shoot) {
 	shell_create(x, y, 1);
 	
 	shoot = false;
+	if (owner.visible)
+		sfx_play_array(owner.sfx_emitter, sfx_gunshot);
 }
 
 if (exists(obj_player) && obj_player.state == player_state_cry)

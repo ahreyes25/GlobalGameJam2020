@@ -36,8 +36,8 @@ global.screen_shake_mult	= 1.0;
 #macro SHAKE_MULT			global.screen_shake_mult
 global.screen_flash_mult	= 1.0;
 #macro FLASH_MULT			global.screen_flash_mult
-global.sound_mult			= 0.0;
-global.music_mult			= 0.0;
+global.sound_mult			= 1.0;
+global.music_mult			= 1.0;
 
 // Audio
 audio_falloff_set_model(audio_falloff_linear_distance);

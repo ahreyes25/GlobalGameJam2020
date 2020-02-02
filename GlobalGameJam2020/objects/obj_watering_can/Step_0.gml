@@ -12,13 +12,14 @@ depth = owner.depth - 1;
 
 image_xscale = owner.image_xscale;
 
-watering = mouse_check_button(mb_left) && water > 0;
+watering = mouse_check_button(mb_left);
 if (watering) {
 	sprite_index = spr_watering_can_water;
 	image_speed = 1;
-	if (CURRENT_TIME_FRAME mod 60 == 0)
+	if (CURRENT_TIME_FRAME mod 100 == 0) {
 		fadeout_object_create(x + (8 * sign(image_xscale)), bbox_bottom, spr_water, owner.depth + 1, 1, id, 0.1, 0.005, 30, c_black, 0, 0, 0, 0);
-	water = clamp(water - 0.1, 0, 100);
+		sfx_play_array(owner.sfx_emitter, sfx_water);
+	}
 }
 else {
 	sprite_index = spr_watering_can;

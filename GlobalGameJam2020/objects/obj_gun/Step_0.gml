@@ -18,7 +18,7 @@ if (dir >= 90 && dir <= 270)
 else
 	image_yscale = 1;
 
-if (mouse_check_button_pressed(mb_left) && !owner.repairing) {
+if (mouse_check_button(mb_left) && !owner.repairing && alarm[1] == -1) {
 	var _len = sprite_width / 2;
 	var _bullet				= instance_create_layer(x + lengthdir_x(_len, dir), y + lengthdir_y(_len, dir), "Instances", obj_bullet);
 	_bullet.travel_speed	= bullet_speed;
@@ -37,7 +37,50 @@ if (mouse_check_button_pressed(mb_left) && !owner.repairing) {
 	var _flash = animate_object_create(x + lengthdir_x(_len, dir), y + lengthdir_y(_len, dir), spr_muzzle_flash, owner.depth - 2, image_xscale, 2, id, 1, true);
 	_flash.image_angle = dir;
 	shell_create(x, y, 1);
+	
+	sfx_play_array(owner.sfx_emitter, sfx_gunshot);
+	alarm[1] = 10;
 }
 
-if (exists(obj_player) && obj_player.state == player_state_cry)
-	visible = false;
+visible = true;
+if (exists(obj_player)) { 
+	if (obj_player.state == player_state_cry || obj_player.state == player_state_roll)
+		visible = false;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

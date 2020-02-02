@@ -50,3 +50,5 @@ if (keyboard_check_pressed(ord(1)))
 if (keyboard_check_pressed(ord(2)))
 	equipped = watering_can;
 	
+audio_emitter_gain(sfx_emitter, 0.25);
+audio_emitter_position(sfx_emitter, obj_camera.x, obj_camera.y, 0);

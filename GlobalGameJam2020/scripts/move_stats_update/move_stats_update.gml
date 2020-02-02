@@ -5,5 +5,5 @@ accel		= 1.3;
 fric		= 0.6;
 run_speed	= 6;
 walk_speed	= 6;
-roll_speed	= 8;
-roll_dist	= 400;
+roll_speed	= 10;
+roll_dist	= 1000;

@@ -8,3 +8,4 @@ face_object_four_directions(cursor);
 
 // State Transitions
 player_state_check_run();
+player_state_check_roll();

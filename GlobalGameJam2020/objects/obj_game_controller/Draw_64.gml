@@ -22,6 +22,7 @@ if (exists(obj_player) && !obj_player.repairing) {
 	#endregion
 }
 
+/*
 draw_sprite_ext(spr_watering_can, 0, 32, 150, 0.5, 0.5, 0, c_white, 1);
 if (exists(obj_player))
 	draw_text(60, 135, obj_player.watering_can.water);

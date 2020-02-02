@@ -18,3 +18,4 @@ if (defined(_enemy_swarm)) {
 }
 
 shader_pulse_color_step();
+audio_emitter_position(sfx_emitter, x, y, 0)

@@ -18,3 +18,5 @@ if (life <= 0) {
 
 if (exists(obj_player) && obj_player.state == player_state_cry)
 	visible = false;
+	
+audio_emitter_position(sfx_emitter, x, y, 0)
