@@ -1239,6 +1239,14 @@
             }
         },
         {
+            "Key": "b41cccbd-ff65-4598-93fa-9753538be069",
+            "Value": {
+                "id": "baefd293-0af3-4798-bde3-f1473b389b7b",
+                "resourcePath": "sprites\\spr_robot_arrow\\spr_robot_arrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b4bf13ca-fc42-4fb8-92c8-2f60573b532b",
             "Value": {
                 "id": "87b8a5a1-eaba-496b-a6c6-42edeefd758a",
@@ -1759,6 +1767,14 @@
             }
         },
         {
+            "Key": "ee20122e-d65f-43ee-85ea-37a16f3dee4f",
+            "Value": {
+                "id": "3add152b-61aa-4f2b-bd8e-74dff4731716",
+                "resourcePath": "scripts\\face_path_forward_dungeon\\face_path_forward_dungeon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ee6e0958-cd26-4228-ad31-6cc982030284",
             "Value": {
                 "id": "f9b3196d-a614-4d99-8a39-b96056d88680",
@@ -1971,6 +1987,7 @@
         "cf7053e0-8a7a-46e1-bf6e-ce9a2bbd431f",
         "5589e12f-c20d-49ae-8992-36315dacc7e7",
         "eb100783-10b1-4164-96b6-b67a315a7038",
+        "ee20122e-d65f-43ee-85ea-37a16f3dee4f",
         "e72c21b8-d3e3-4861-89ff-3f918f6e9bca",
         "533662ae-740f-46f7-93bd-2e409e09328d",
         "7eb478d2-595a-4431-aa73-1b0a2ed71f24",

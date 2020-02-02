@@ -108,23 +108,22 @@ for (var i = 0; i < GRID_WIDTH; i++) {
 	for (var j = 0; j < GRID_HEIGHT; j++) {
 		if (ds_grid_get(GRID, i, j) == LAND.EMPTY) {
 			if (i < _left_i && j < _top_j) {
-				_left_i = i;
-				_top_j  = j;
+				var _s1 = (GRID[# i, j] == LAND.EMPTY);
+				var _s2 = (GRID[# i + 1, j] == LAND.EMPTY);
+				var _s3 = (GRID[# i, j + 1] == LAND.EMPTY);
+				var _s4 = (GRID[# i + 1, j + 1] == LAND.EMPTY);
 				
-				// Space Exists To Left or Right
-				if (GRID[# i + 1, j] != LAND.SOLID)
-					_left_i = i + 1;
-				else if (GRID[# i - 1, j] != LAND.SOLID)
-					_left_i = _left_i;
-				else
-					continue;
+				if (_s1 && _s2 && _s3 && _s4) {
+					_left_i = i;
+					_top_j  = j;
+				}
 			}
 		}
 	}
 }
 
 var _world_coords = grid_to_world(_left_i, _top_j);
-instance_create_layer(_world_coords[0], _world_coords[1], "Dungeon", obj_start);
+instance_create_layer(_world_coords[0] + UNIT_SIZE / 2, _world_coords[1] + UNIT_SIZE / 2, "Dungeon", obj_start);
 #endregion
 
 #region Spawn End Point

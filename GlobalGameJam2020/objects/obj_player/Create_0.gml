@@ -16,4 +16,4 @@ cursor			= instance_create_layer(x, y, "Controllers", obj_cursor);
 cursor.owner	= id;
 gun				= instance_create_layer(x, (bbox_top + bbox_bottom) * 0.75, "Instances", obj_gun);
 gun.owner		= id;
-lights			= light_double_create(x, y - sprite_height / 2);
+lights			= light_double_create(x, y - 24);

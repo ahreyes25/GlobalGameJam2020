@@ -8,7 +8,7 @@
         "fca8acd7-a8cb-4be5-a01f-8e7f053a2944"
     ],
     "filterType": "GMScript",
-    "folderName": "L:ight Scripts",
+    "folderName": "Light Scripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

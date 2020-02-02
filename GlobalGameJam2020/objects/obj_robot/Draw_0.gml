@@ -1,4 +1,4 @@
-face_path_forward(id, path);
+face_path_forward_dungeon();
 if (facing == DIR.LEFT || facing == DIR.RIGHT)
 	image_xscale = scale * facing;
 image_yscale = scale;
@@ -73,8 +73,8 @@ switch (state) {
 		break;
 }
 
-if (defined(target))
-	draw_text(x, y + 10, object_get_name(target.object_index));
+/*
+draw_text(x, y + 10, script_get_name(state));
 draw_set_color(c_purple);
 draw_path(dungeon_path, x, y, true);
 draw_set_color(c_white);
