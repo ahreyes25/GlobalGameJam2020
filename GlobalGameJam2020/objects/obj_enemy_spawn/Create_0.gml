@@ -1,6 +1,6 @@
 life		= 10;
 spawn_time	= 60 * 5;
-alarm[0]	= spawn_time;
+alarm[0]	= irandom(spawn_time);
 flashing	= false;
 image_xscale	= 0.75;
 image_yscale	= 0.75;

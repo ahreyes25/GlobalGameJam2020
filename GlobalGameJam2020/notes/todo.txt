@@ -1,6 +1,5 @@
 Total: 8 hrs
 - swarm enemy art (1 hr -- 30 min)
-- shoot enemy art (1 hr -- 30 min)
 - next level loading (1 hr)
 	-- pass important data to persistant object
 - lose conditions (15 min)
@@ -13,6 +12,11 @@ Total: 8 hrs
 Leftover: 4 hrs
 - crawl under robot (30 min)
 - player rolling (30 min)
+- have bandits shoot rocks
+- portal crumble
+- portal shadow
+- enemy spawn effect
+
 
 - destroy rocks that spawn in robot
 - cactus flash red repeatedly

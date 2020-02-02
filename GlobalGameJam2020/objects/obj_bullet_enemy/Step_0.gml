@@ -20,6 +20,7 @@ if (defined(_player)) {
 	_player.flashing = true;
 	animate_object_create(x, y, spr_muzzle_flash, _player.depth - 1, 1, 2, id, 1, false);
 	instance_destroy();
+	blood_create(_player.x, _player.y, 10);
 }
 	
 // Solid

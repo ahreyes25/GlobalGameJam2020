@@ -21,6 +21,7 @@ if (defined(_enemy)) {
 	_enemy.flashing = true;
 	animate_object_create(x, y, spr_muzzle_flash, _enemy.depth - 1, 1, 2, id, 1, false);
 	instance_destroy();
+	blood_create(_enemy.x, _enemy.y, 10);
 }
 	
 // Solid

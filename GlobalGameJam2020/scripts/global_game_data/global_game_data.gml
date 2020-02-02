@@ -50,3 +50,5 @@ global.current_time_frame	= 0;
 
 global.n_spawners			= 0;
 global.n_spawns_allowed		= 10;
+global.n_enemies_on_screen	= 0;
+global.max_enemies_on_screen	= 50;

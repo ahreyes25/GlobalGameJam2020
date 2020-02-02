@@ -7,3 +7,7 @@ target_move		= obj_robot;
 target_shoot	= obj_robot;
 move_speed		= 1;
 shoot_range		= 300;
+facing			= DIR.RIGHT;
+scale			= 1;
+gun_tip_x		= x;
+gun_tip_y		= y;

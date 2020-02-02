@@ -19,7 +19,8 @@ else
 	image_yscale = 1;
 
 if (mouse_check_button_pressed(mb_left) && !owner.repairing) {
-	var _bullet				= instance_create_layer(x, y, "Instances", obj_bullet);
+	var _len = sprite_width / 2;
+	var _bullet				= instance_create_layer(x + lengthdir_x(_len, dir), y + lengthdir_y(_len, dir), "Instances", obj_bullet);
 	_bullet.travel_speed	= bullet_speed;
 	_bullet.damage			= bullet_damage;
 	
@@ -33,7 +34,6 @@ if (mouse_check_button_pressed(mb_left) && !owner.repairing) {
 	if (alarm[0] == -1)
 		alarm[0] = 5;
 	
-	var _len = sprite_width / 2;
 	var _flash = animate_object_create(x + lengthdir_x(_len, dir), y + lengthdir_y(_len, dir), spr_muzzle_flash, owner.depth - 2, image_xscale, 2, id, 1, true);
 	_flash.image_angle = dir;
 	shell_create(x, y, 1);
