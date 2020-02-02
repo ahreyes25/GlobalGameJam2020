@@ -1,5 +1,4 @@
 Total: 8 hrs
-- swarm enemy art (1 hr -- 30 min)
 - next level loading (1 hr)
 	-- pass important data to persistant object
 - lose conditions (15 min)
@@ -16,7 +15,8 @@ Leftover: 4 hrs
 - portal crumble
 - portal shadow
 - enemy spawn effect
-
+- enemy flashing
+- next level doors
 
 - destroy rocks that spawn in robot
 - cactus flash red repeatedly
