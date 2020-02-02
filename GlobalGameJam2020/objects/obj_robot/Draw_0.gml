@@ -7,21 +7,31 @@ image_yscale = scale;
 	
 mask_index = spr_robot_mask;	
 
+// Watering Pulse Blue
+var _hydrate = exists(obj_player) && obj_player.touching_robot && obj_player.equipped == obj_player.watering_can && obj_player.watering_can.watering && plant_health < 100 && glass_health <= 0;
+var _blue = make_color_rgb(48, 96, 130);
+
 switch (state) {
 	case robot_state_idle:
 		sprite_index	= spr_robot_idle_no_cactus;
 		image_speed		= 0.5 * (battery_health / 100);
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
 		shader_reset();
 		
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing && glass_health <= 0)
 			shader_set(shdr_flash_red);
 		else if (flashing)
 			shader_set(shdr_flash_white);
 		draw_sprite_ext(spr_robot_idle_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
 		
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		if (glass_health >= 75) 
@@ -39,17 +49,23 @@ switch (state) {
 	case robot_state_stun:
 		sprite_index	= spr_robot_idle_no_cactus;
 		image_speed		= 0.5 * (battery_health / 100);
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
 		shader_reset();
 		
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing && glass_health <= 0)
 			shader_set(shdr_flash_red);
 		else if (flashing)
 			shader_set(shdr_flash_white);
 		draw_sprite_ext(spr_robot_idle_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
 		
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		if (glass_health >= 75) 
@@ -66,17 +82,23 @@ switch (state) {
 	case robot_state_walk:
 		sprite_index	= spr_robot_walk_no_cactus;
 		image_speed		= 0.3 * (battery_health / 100);
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
 		shader_reset();
 		
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing && glass_health <= 0)
 			shader_set(shdr_flash_red);
 		else if (flashing)
 			shader_set(shdr_flash_white);
 		draw_sprite_ext(spr_robot_walk_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
 		
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		if (glass_health >= 75) 
@@ -93,17 +115,23 @@ switch (state) {
 	default:
 		sprite_index	= spr_robot_walk_no_cactus;
 		image_speed		= 0.3 * (battery_health / 100);
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
 		shader_reset();
 		
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing && glass_health <= 0)
 			shader_set(shdr_flash_red);
 		else if (flashing)
 			shader_set(shdr_flash_white);
 		draw_sprite_ext(spr_robot_walk_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
 		
+		if (_hydrate)
+			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		if (glass_health >= 75) 

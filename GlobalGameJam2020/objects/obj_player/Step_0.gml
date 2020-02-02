@@ -31,9 +31,10 @@ if (life <= 0 && state != player_state_death) {
 } 
 #endregion
 
+touching_robot = (point_distance(x, y, obj_robot.x, obj_robot.y) < 64);
 #region Start Repairing
 if (keyboard_check_pressed(ord("F")) && !repairing) {
-	if (point_distance(x, y, obj_robot.x, obj_robot.y)) {
+	if (touching_robot) {
 		obj_robot.repairing = true;
 		instance_create_layer(0, 0, "Repair", obj_repair);
 		repairing = true;
@@ -41,3 +42,8 @@ if (keyboard_check_pressed(ord("F")) && !repairing) {
 	}
 }
 #endregion
+
+if (keyboard_check_pressed(ord(1)))
+	equipped = gun;
+if (keyboard_check_pressed(ord(2)))
+	equipped = watering_can;

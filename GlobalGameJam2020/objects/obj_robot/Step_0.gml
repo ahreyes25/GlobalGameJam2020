@@ -13,3 +13,5 @@ if (defined(_enemy_swarm)) {
 	robot_damage(_enemy_swarm.damage);
 	instance_destroy(_enemy_swarm);
 }
+
+shader_pulse_color_step();

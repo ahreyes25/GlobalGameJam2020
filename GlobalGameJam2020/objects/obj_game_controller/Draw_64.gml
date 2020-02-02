@@ -21,3 +21,7 @@ if (exists(obj_player) && !obj_player.repairing) {
 	draw_sprite_ext(spr_robot_arrow, 0, _x + lengthdir_x(_len, _dir), 64 + lengthdir_y(_len, _dir), 1, 1, _dir - 45, c_white, 1);
 	#endregion
 }
+
+draw_sprite_ext(spr_watering_can, 0, 32, 150, 0.5, 0.5, 0, c_white, 1);
+if (exists(obj_player))
+	draw_text(60, 135, obj_player.watering_can.water);

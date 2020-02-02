@@ -33,3 +33,5 @@ path_set_kind(path, false);
 path_index_current	= 0;
 path_point_x		= undefined;
 path_point_y		= undefined;
+
+shader_pulse_color_create();

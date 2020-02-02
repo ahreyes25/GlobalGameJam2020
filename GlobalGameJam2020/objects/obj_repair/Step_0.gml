@@ -14,7 +14,7 @@ if (mouse_check_button_pressed(mb_left)) {
 		var _ly	= _y1 + _left_coord[1] * 4;
 		var _rx	= _x1 + _right_coord[0] * 4;
 		var _ry	= _y1 + _right_coord[1] * 4;
-		var _cush = 32;
+		var _cush = 48;
 	
 		// Clicking On Left Node
 		if (mouse_x > _lx - _cush && mouse_x < _lx + _cush && mouse_y > _ly - _cush && mouse_y < _ly + _cush) {

@@ -335,11 +335,27 @@
             }
         },
         {
+            "Key": "3881e135-d2bb-40b4-aeb7-9586c9608f70",
+            "Value": {
+                "id": "25022723-a1ef-462a-b89a-1c2392f820b2",
+                "resourcePath": "scripts\\shader_pulse_color_draw\\shader_pulse_color_draw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "39100bcb-6c7c-4990-ad88-e20f92522d8d",
             "Value": {
                 "id": "c875beb5-5dc6-42f3-9848-c209192afbcf",
                 "resourcePath": "sprites\\spr_robot_walk_just_glass\\spr_robot_walk_just_glass.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "39b25eec-a5fa-43da-bd46-32e6dad09dab",
+            "Value": {
+                "id": "7b2562ce-c7a3-45cc-92d3-ba2ac55c366b",
+                "resourcePath": "scripts\\shader_pulse_color_step\\shader_pulse_color_step.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1159,6 +1175,14 @@
             }
         },
         {
+            "Key": "9681618e-7b31-4f7d-8907-9f5dfb24ce35",
+            "Value": {
+                "id": "ed77898c-ba40-4dd0-8fbb-8fa3ccc794af",
+                "resourcePath": "sprites\\spr_watering_can\\spr_watering_can.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "96bd2cba-1892-4d18-85c5-26a063da35e2",
             "Value": {
                 "id": "785a2a8e-ea3b-436a-95db-5cffd56c26c4",
@@ -1228,6 +1252,14 @@
                 "id": "72ac65ec-a6a8-49c8-9960-0f97e53ef530",
                 "resourcePath": "sprites\\spr_repair\\spr_repair.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a1d8f5a0-012f-4533-8839-5e3c559da497",
+            "Value": {
+                "id": "ae0c2815-bdad-43db-9f20-f6fe8c89ed10",
+                "resourcePath": "scripts\\fadeout_object_create\\fadeout_object_create.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1535,6 +1567,14 @@
             }
         },
         {
+            "Key": "c766bcfb-1bf8-4d5b-bdc5-9d66fa01c406",
+            "Value": {
+                "id": "10969d32-a9ba-4caa-9ddf-edc9f828aaa0",
+                "resourcePath": "sprites\\spr_water\\spr_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca9fad20-714e-4035-bc97-27a75f99638c",
             "Value": {
                 "id": "d15de8dd-9244-4ae4-adf9-33d2ac9b9035",
@@ -1767,6 +1807,14 @@
             }
         },
         {
+            "Key": "de974515-039b-48ee-93e4-8a01d8942d91",
+            "Value": {
+                "id": "5bcde727-8aa6-4a0e-95b1-88e16d021c62",
+                "resourcePath": "objects\\obj_watering_can\\obj_watering_can.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dfd32a71-4d4e-46f4-9c6e-74bfeca5164e",
             "Value": {
                 "id": "89a0618b-4df8-4923-8af1-fd80b0f5715d",
@@ -1943,6 +1991,14 @@
             }
         },
         {
+            "Key": "f0d3f704-2e32-4fbe-b593-315a062b28fb",
+            "Value": {
+                "id": "a674d855-6b2b-4fb1-a066-c5f8011b9f63",
+                "resourcePath": "scripts\\shader_pulse_color_create\\shader_pulse_color_create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f106ed25-b5c0-4208-8259-618a7e260bb6",
             "Value": {
                 "id": "168e44ef-d1f8-4671-85b1-ed5e7563de3e",
@@ -2012,6 +2068,14 @@
                 "id": "c5ba9891-68b1-4440-b3a7-7e764b1b4f68",
                 "resourcePath": "views\\fc0d7df1-5a5e-40fe-a3c0-56dcea85a2f1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fca1f0a3-1e9d-44b6-832c-747fdb243d65",
+            "Value": {
+                "id": "e4d39d2b-f0a1-46a1-872b-daef7d66d991",
+                "resourcePath": "sprites\\spr_watering_can_water\\spr_watering_can_water.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2152,6 +2216,10 @@
         "533662ae-740f-46f7-93bd-2e409e09328d",
         "7eb478d2-595a-4431-aa73-1b0a2ed71f24",
         "ee6e0958-cd26-4228-ad31-6cc982030284",
+        "a1d8f5a0-012f-4533-8839-5e3c559da497",
+        "f0d3f704-2e32-4fbe-b593-315a062b28fb",
+        "3881e135-d2bb-40b4-aeb7-9586c9608f70",
+        "39b25eec-a5fa-43da-bd46-32e6dad09dab",
         "8a9d063d-27b9-4f20-8b36-45186d582792",
         "fca8acd7-a8cb-4be5-a01f-8e7f053a2944"
     ],

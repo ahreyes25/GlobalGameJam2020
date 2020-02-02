@@ -1,19 +1,8 @@
-Focus:
-	- repair & repair menu
-		- mini game, crawl under engine
-			- nav, battery, motor, light, 
-		- connect wire nodes
-		- 
-
-Other:	
-	- how to spawn enemies?
-	- different types of enemies
-	- destroy rocks that spawn in robot
-	- player knockback
-	- player rolling
-	- import music & sounds
-	- cactus flash red repeatedly
-
-Later:
-	- robot deal damage to rocks upgrade?
-	- gamepad support
+- different types of enemies
+- enemy spawns
+- destroy rocks that spawn in robot
+- player knockback
+- player rolling
+- import music & sounds
+- cactus flash red repeatedly
+- make repair screen look messy

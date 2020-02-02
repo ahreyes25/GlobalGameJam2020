@@ -3,6 +3,9 @@ if (!exists(owner)) {
 	return;
 }
 
+if (owner.equipped != id)
+	return;
+
 if (alarm[0] == -1)
 	x = owner.x + (10 * sign(owner.image_xscale));
 y = (owner.bbox_top + owner.bbox_bottom) / 2 - 10;
