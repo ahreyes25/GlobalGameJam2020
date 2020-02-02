@@ -1,4 +1,4 @@
-life	= 3;
+life	= 5;
 
 
 // Movement

@@ -1,4 +1,4 @@
-life		= 10;
+life		= 20;
 spawn_time	= 60 * 5;
 alarm[0]	= irandom(spawn_time);
 flashing	= false;

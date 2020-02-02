@@ -15,7 +15,6 @@ Leftover: 4 hrs
 - portal crumble
 - portal shadow
 - enemy spawn effect
-- enemy flashing
 - next level doors
 
 - destroy rocks that spawn in robot

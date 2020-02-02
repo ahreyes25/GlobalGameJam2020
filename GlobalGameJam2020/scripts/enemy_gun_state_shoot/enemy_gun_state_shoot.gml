@@ -1,5 +1,5 @@
 if (alarm[0] == -1) {
-	alarm[0] = 60;
+	alarm[0] = shoot_rate;
 	
 	// Shoot
 	gun.shoot = true;

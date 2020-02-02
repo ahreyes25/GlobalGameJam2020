@@ -15,6 +15,11 @@ switch (state) {
 		sprite_index = spr_player_run;
 		image_speed = 1.0;
 		break;	
+		
+	case player_state_cry:
+		sprite_index = spr_player_cry;
+		image_speed = 1.0;
+		break;
 }
 
 //draw_sprite_ext(spr_shadow, 0, x, y, 1, 1, 0, c_white, 1);

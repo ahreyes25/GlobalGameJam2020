@@ -3,7 +3,7 @@ if (facing == DIR.LEFT || facing == DIR.RIGHT)
 	image_xscale = scale * facing;
 image_yscale = scale;
 
-//draw_sprite_ext(spr_shadow, 0, x, y, 2, 2, 0, c_white, 1);
+//draw_sprite_ext(spr_shadow, 0, x, y, 2, 2, 0, c_white, image_alpha);
 	
 mask_index = spr_robot_mask;	
 
@@ -19,7 +19,7 @@ switch (state) {
 			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
-		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		shader_reset();
 		
 		if (_hydrate)
@@ -28,20 +28,20 @@ switch (state) {
 			shader_set(shdr_flash_red);
 		else if (flashing)
 			shader_set(shdr_flash_white);
-		draw_sprite_ext(spr_robot_idle_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+		draw_sprite_ext(spr_robot_idle_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		
 		if (_hydrate)
 			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		if (glass_health >= 75) 
-			draw_sprite_ext(spr_robot_idle_just_glass, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_idle_just_glass, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health >= 50)
-			draw_sprite_ext(spr_robot_idle_just_glass_broken_1, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_idle_just_glass_broken_1, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health >= 25)
-			draw_sprite_ext(spr_robot_idle_just_glass_broken_2, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_idle_just_glass_broken_2, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health > 0)
-			draw_sprite_ext(spr_robot_idle_just_glass_broken_3, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_idle_just_glass_broken_3, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		
 		shader_reset();
 		break;
@@ -53,7 +53,7 @@ switch (state) {
 			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
-		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		shader_reset();
 		
 		if (_hydrate)
@@ -62,20 +62,20 @@ switch (state) {
 			shader_set(shdr_flash_red);
 		else if (flashing)
 			shader_set(shdr_flash_white);
-		draw_sprite_ext(spr_robot_idle_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+		draw_sprite_ext(spr_robot_idle_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		
 		if (_hydrate)
 			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		if (glass_health >= 75) 
-			draw_sprite_ext(spr_robot_idle_just_glass, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_idle_just_glass, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health >= 50)
-			draw_sprite_ext(spr_robot_idle_just_glass_broken_1, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_idle_just_glass_broken_1, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health >= 25)
-			draw_sprite_ext(spr_robot_idle_just_glass_broken_2, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_idle_just_glass_broken_2, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health > 0)
-			draw_sprite_ext(spr_robot_idle_just_glass_broken_3, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_idle_just_glass_broken_3, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		shader_reset();
 		break;
 		
@@ -86,7 +86,7 @@ switch (state) {
 			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
-		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		shader_reset();
 		
 		if (_hydrate)
@@ -95,20 +95,20 @@ switch (state) {
 			shader_set(shdr_flash_red);
 		else if (flashing)
 			shader_set(shdr_flash_white);
-		draw_sprite_ext(spr_robot_walk_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+		draw_sprite_ext(spr_robot_walk_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		
 		if (_hydrate)
 			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		if (glass_health >= 75) 
-			draw_sprite_ext(spr_robot_walk_just_glass, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_walk_just_glass, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health >= 50)  
-			draw_sprite_ext(spr_robot_walk_just_glass_broken_1, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_walk_just_glass_broken_1, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health >= 25)  
-			draw_sprite_ext(spr_robot_walk_just_glass_broken_2, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_walk_just_glass_broken_2, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health > 0)
-			draw_sprite_ext(spr_robot_walk_just_glass_broken_3, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_walk_just_glass_broken_3, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		shader_reset();
 		break;
 		
@@ -119,7 +119,7 @@ switch (state) {
 			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
-		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+		draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		shader_reset();
 		
 		if (_hydrate)
@@ -128,20 +128,20 @@ switch (state) {
 			shader_set(shdr_flash_red);
 		else if (flashing)
 			shader_set(shdr_flash_white);
-		draw_sprite_ext(spr_robot_walk_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+		draw_sprite_ext(spr_robot_walk_just_cactus, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		
 		if (_hydrate)
 			shader_pulse_color_draw(_blue);
 		if (flashing)
 			shader_set(shdr_flash_white);
 		if (glass_health >= 75) 
-			draw_sprite_ext(spr_robot_walk_just_glass, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_walk_just_glass, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health >= 50)  
-			draw_sprite_ext(spr_robot_walk_just_glass_broken_1, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_walk_just_glass_broken_1, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health >= 25)  
-			draw_sprite_ext(spr_robot_walk_just_glass_broken_2, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_walk_just_glass_broken_2, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		else if (glass_health > 0)
-			draw_sprite_ext(spr_robot_walk_just_glass_broken_3, image_index, x, y, image_xscale, image_yscale, 0, c_white, 1);
+			draw_sprite_ext(spr_robot_walk_just_glass_broken_3, image_index, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
 		shader_reset();
 		break;
 }

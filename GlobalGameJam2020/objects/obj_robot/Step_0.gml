@@ -1,6 +1,9 @@
 if (repairing)
 	state = robot_state_idle;
 	
+if (plant_health <= 0)
+	state = robot_state_die;
+
 script_execute(state);
 
 if (flashing && alarm[1] == -1)

@@ -14,3 +14,6 @@ if (life <= 0) {
 }
 
 script_execute(state);
+
+if (flashing && alarm[2] == -1)
+	alarm[2] = 3;

@@ -1,0 +1,2 @@
+/// @description Flashing
+flashing = false;

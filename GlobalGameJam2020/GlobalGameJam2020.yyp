@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0482156d-265a-4331-9120-50b11cc8619d",
+            "Value": {
+                "id": "6215e07f-854f-45c1-9886-7f2f54c774c7",
+                "resourcePath": "sprites\\spr_player_cry\\spr_player_cry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05227d2b-e5a4-448a-9f6a-fd2c08ca5e6d",
             "Value": {
                 "id": "d52c39ad-bd17-42f2-8155-c0a520b190b7",
@@ -815,14 +823,6 @@
             }
         },
         {
-            "Key": "6b733cac-8d90-467e-af4e-ddade6ae231c",
-            "Value": {
-                "id": "83290d3c-fbf1-45a3-bbca-6002437cd2e7",
-                "resourcePath": "scripts\\player_state_death\\player_state_death.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "6bc7bbbd-c4f8-4aee-a5fb-a4d72df7368c",
             "Value": {
                 "id": "37f0b2d6-9ba6-4814-b754-bf29a453d257",
@@ -1036,6 +1036,14 @@
                 "id": "c9842717-c1ff-4556-b248-f788dac4c025",
                 "resourcePath": "sprites\\spr_robot_walk_just_cactus\\spr_robot_walk_just_cactus.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "877e3e6f-7b0b-4b89-a204-11ec47770837",
+            "Value": {
+                "id": "379ce5ff-e1b2-426f-a2f3-f48ad32f5bda",
+                "resourcePath": "scripts\\robot_state_die\\robot_state_die.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2127,6 +2135,14 @@
             }
         },
         {
+            "Key": "f19060ac-e417-48b6-81d3-4f96195b7b5e",
+            "Value": {
+                "id": "e648ecd7-e79e-49cb-b82e-5f007faadd00",
+                "resourcePath": "scripts\\player_state_cry\\player_state_cry.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "81ad4c71-b378-4826-843f-bd2384686b86",
@@ -2308,7 +2324,7 @@
         "67673224-1c53-4e97-acd9-3160bc22bb17",
         "8dd1108e-bb93-4f90-8cd8-3062963805b0",
         "0d3f88af-1e42-4383-b3f0-2bbbdc0bbd49",
-        "6b733cac-8d90-467e-af4e-ddade6ae231c",
+        "f19060ac-e417-48b6-81d3-4f96195b7b5e",
         "dbff2572-8b74-4ac1-9d09-d561372f8517",
         "3323bcff-9c21-4c51-a3b8-82d1e58502f3",
         "b5e86f77-2de3-48cd-a598-c704ee5b6217",
@@ -2325,6 +2341,7 @@
         "4af210c3-d99e-43b8-b9ff-ef22de80655c",
         "6335a980-8431-4496-84d3-40860c87a299",
         "bfa71042-bcea-484f-823b-326a37fe72c1",
+        "877e3e6f-7b0b-4b89-a204-11ec47770837",
         "999067c5-b601-464f-9f52-312abcc9b8fc",
         "3b68cfa5-7dad-4ebd-9cc9-2bf183a0beb7",
         "2db02b98-1c21-42e8-a8a9-e4b18b5ac3a5",

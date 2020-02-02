@@ -9,7 +9,8 @@
         "27bc3ccb-2b8e-405c-a347-69973382fed6",
         "4af210c3-d99e-43b8-b9ff-ef22de80655c",
         "6335a980-8431-4496-84d3-40860c87a299",
-        "bfa71042-bcea-484f-823b-326a37fe72c1"
+        "bfa71042-bcea-484f-823b-326a37fe72c1",
+        "877e3e6f-7b0b-4b89-a204-11ec47770837"
     ],
     "filterType": "GMScript",
     "folderName": "Robot States",

@@ -1,9 +1,8 @@
-/*
 if (!surface_exists(light_surface))
 	light_surface = surface_create(room_width, room_height);
 	
 surface_set_target(light_surface);
-draw_clear_alpha(c_black, 0.9);
+draw_clear_alpha(c_black, 1);
 
 with (obj_circle_light) {
 	gpu_set_blendmode(bm_subtract);

@@ -9,6 +9,9 @@ else
 	var _obj = id;
 #endregion
 
+if (!exists(_obj))
+	return;
+	
 if (_obj.pulsating) {
 	if (_obj.shader_pulse_alpha < 1)
 		_obj.shader_pulse_alpha += _obj.shader_pulse_speed;

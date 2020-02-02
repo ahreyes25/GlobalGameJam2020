@@ -22,28 +22,30 @@ if (repairing) {
 
 event_inherited();
 
-#region Death
-if (life <= 0 && state != player_state_death) {
-	state = player_state_death;	
-	image_index = 0;
-	path_end_all();
-	alarm[alarm_knockback] = -1;
-} 
-#endregion
-
-touching_robot = (point_distance(x, y, obj_robot.x, obj_robot.y) < 64);
-#region Start Repairing
-if (keyboard_check_pressed(ord("F")) && !repairing) {
-	if (touching_robot) {
-		obj_robot.repairing = true;
-		instance_create_layer(0, 0, "Repair", obj_repair);
-		repairing = true;
-		camera_set_cursor_influence(false);
-	}
+if (exists(obj_robot) && obj_robot.plant_health <= 0) {
+	state = player_state_cry;
+	equipped = undefined;
+	camera_set_focus_point(x, y);
+	camera_set_zoom_factor(1);
+	return;
 }
-#endregion
+
+if (exists(obj_robot)) {
+	touching_robot = (point_distance(x, y, obj_robot.x, obj_robot.y) < 64);
+	#region Start Repairing
+	if (keyboard_check_pressed(ord("F")) && !repairing) {
+		if (touching_robot) {
+			obj_robot.repairing = true;
+			instance_create_layer(0, 0, "Repair", obj_repair);
+			repairing = true;
+			camera_set_cursor_influence(false);
+		}
+	}
+	#endregion
+}
 
 if (keyboard_check_pressed(ord(1)))
 	equipped = gun;
 if (keyboard_check_pressed(ord(2)))
 	equipped = watering_can;
+	
