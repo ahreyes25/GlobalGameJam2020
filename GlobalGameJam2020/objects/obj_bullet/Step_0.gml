@@ -30,7 +30,7 @@ if (defined(_solid)) {
 
 // Robot
 if (defined(_robot)) {
-	robot_damage(damage);
+	robot_damage(10);
 	animate_object_create(x, y, spr_muzzle_flash, _robot.depth - 1, 1, 2, id, 1, false);
 	instance_destroy();
 }

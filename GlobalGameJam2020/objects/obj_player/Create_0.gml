@@ -5,6 +5,7 @@ pid				= PID.P1
 state			= player_state_idle;
 scale			= 1;
 roll_cooldown	= 30;
+repairing		= false;
 
 #region Alarms
 alarm_knockback		= 2;

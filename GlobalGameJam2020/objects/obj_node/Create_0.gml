@@ -1,0 +1,11 @@
+type		= undefined;
+node_pair	= undefined;
+image_speed = 0;
+image_index = 0;
+repair		= undefined;
+connected	= false;
+main_node	= false;
+node_wire_offset_x	= random_range(-8, 8);
+node_wire_offset_y	= random_range(-8, 8);
+list_index	= undefined;
+clicked		= false;

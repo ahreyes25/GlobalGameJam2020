@@ -8,27 +8,27 @@ var _space_x = 20;
 	
 if (glass_health <= _thresh)
 	draw_sprite_ext(spr_hazard,		image_index, _x - _space_x, _y,	_scale, _scale, 0, c_white, 1);
-draw_sprite_ext(spr_glass_icon,		image_index, _x, _y,	_scale, _scale, 0, c_white, 1);
+draw_sprite_ext(spr_glass_icon,		0, _x, _y,	_scale, _scale, 0, c_white, 1);
 	
 if (plant_health <= _thresh)
 	draw_sprite_ext(spr_hazard,		image_index, _x - _space_x, _y + _space,	_scale, _scale, 0, c_white, 1);
-draw_sprite_ext(spr_plant_icon,		image_index, _x, _y + _space,	_scale, _scale, 0, c_white, 1);
+draw_sprite_ext(spr_plant_icon,		0, _x, _y + _space,	_scale, _scale, 0, c_white, 1);
 
 if (battery_health <= _thresh)
 	draw_sprite_ext(spr_hazard,		image_index, _x - _space_x, _y + _space * 2,	_scale, _scale, 0, c_white, 1);
-draw_sprite_ext(spr_batter_icon,	image_index, _x, _y + _space * 2,	_scale, _scale, 0, c_white, 1);
+draw_sprite_ext(spr_batter_icon,	0, _x, _y + _space * 2,	_scale, _scale, 0, c_white, 1);
 
 if (motor_health <= _thresh)
 	draw_sprite_ext(spr_hazard,		image_index, _x - _space_x, _y + _space * 3,	_scale, _scale, 0, c_white, 1);
-draw_sprite_ext(spr_motor_icon,		image_index, _x, _y + _space * 3,	_scale, _scale, 0, c_white, 1);
+draw_sprite_ext(spr_motor_icon,		0, _x, _y + _space * 3,	_scale, _scale, 0, c_white, 1);
 
 if (nav_health <= _thresh)
 	draw_sprite_ext(spr_hazard,		image_index, _x - _space_x, _y + _space * 4,	_scale, _scale, 0, c_white, 1);
-draw_sprite_ext(spr_nav_icon,		image_index, _x, _y + _space * 4,	_scale, _scale, 0, c_white, 1);
+draw_sprite_ext(spr_nav_icon,		0, _x, _y + _space * 4,	_scale, _scale, 0, c_white, 1);
 
 if (light_health <= _thresh)
 	draw_sprite_ext(spr_hazard,		image_index, _x - _space_x, _y + _space * 5,	_scale, _scale, 0, c_white, 1);
-draw_sprite_ext(spr_light_icon,		image_index, _x, _y +  _space * 5,	_scale, _scale, 0, c_white, 1);
+draw_sprite_ext(spr_light_icon,		0, _x, _y +  _space * 5,	_scale, _scale, 0, c_white, 1);
 
 // Draw Bars
 var _x1 = 50;

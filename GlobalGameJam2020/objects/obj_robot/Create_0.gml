@@ -17,6 +17,7 @@ flash_time			= 3;
 light_scale_base	= 10;
 light_scale			= light_scale_base;
 lights				= light_double_create(x, y);
+repairing			= false;
 
 // Movement
 move_speed		= 0.5 * (motor_health / 100);

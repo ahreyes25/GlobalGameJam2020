@@ -1,3 +1,6 @@
+if (repairing)
+	state = robot_state_idle;
+	
 script_execute(state);
 
 if (flashing && alarm[1] == -1)

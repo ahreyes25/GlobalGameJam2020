@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "08086927-c271-4dac-a6cc-bf1dbae472d0",
+            "Value": {
+                "id": "f73e4a6e-bcb0-495a-a291-b5d16ed5f6b0",
+                "resourcePath": "objects\\obj_node\\obj_node.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "08e303d6-cd12-4aa6-9172-490f354a148a",
             "Value": {
                 "id": "00017b76-4013-49ee-b811-ae3235083dd3",
@@ -267,6 +275,14 @@
             "Value": {
                 "id": "ae92dde4-a0e1-4b94-a0fb-30bbc6bbdfe9",
                 "resourcePath": "sprites\\spr_tileset\\spr_tileset.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "33d4722c-7790-4918-8286-aac66bb746b2",
+            "Value": {
+                "id": "28999a4e-a175-49bb-a789-fe044ab0cb53",
+                "resourcePath": "sprites\\spr_nodes\\spr_nodes.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1159,6 +1175,14 @@
             }
         },
         {
+            "Key": "99f3154a-ed2e-406e-b292-7eea534b44ff",
+            "Value": {
+                "id": "f348c298-060e-47de-9e37-4d8351dc626a",
+                "resourcePath": "notes\\todo.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "9b17e406-8cfe-45e1-8547-ac01dfe206e3",
             "Value": {
                 "id": "3c41129f-0261-4123-a0b5-affbeef14710",
@@ -1196,6 +1220,14 @@
                 "id": "268205c2-dbaa-4fe4-8e95-8c1ef2aa5bdc",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a193777a-9968-46f7-83cf-4fb6ce81a9a0",
+            "Value": {
+                "id": "72ac65ec-a6a8-49c8-9960-0f97e53ef530",
+                "resourcePath": "sprites\\spr_repair\\spr_repair.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1852,6 +1884,14 @@
                 "id": "b0f8b1f8-8f9d-4a61-982e-e268401a6aae",
                 "resourcePath": "views\\e9b22db9-5706-4406-b1b4-762f3c806822.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ea070037-3735-48a4-8d05-b54985589e03",
+            "Value": {
+                "id": "978b47f2-4508-4f0d-96df-c8a67fe6674b",
+                "resourcePath": "objects\\obj_repair\\obj_repair.yy",
+                "resourceType": "GMObject"
             }
         },
         {

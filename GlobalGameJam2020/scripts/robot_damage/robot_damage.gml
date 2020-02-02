@@ -18,6 +18,10 @@ else {
 	
 obj_robot.flashing	= true;
 obj_robot.target	= robot_get_target(obj_robot.id);
+
+if (obj_robot.target.object_index != obj_end)
+	animate_object_create(obj_robot.x - (80 * sign(image_xscale)), obj_robot.y - 160, spr_nav_icon, obj_robot.depth - 1, 1, 0.25, obj_robot, 3, true);
+
 with (obj_robot) {
 	path_end();
 	path_clear_points(path);
