@@ -38,3 +38,6 @@ if (mouse_check_button_pressed(mb_left) && !owner.repairing) {
 	_flash.image_angle = dir;
 	shell_create(x, y, 1);
 }
+
+if (exists(obj_player) && obj_player.state == player_state_cry)
+	visible = false;

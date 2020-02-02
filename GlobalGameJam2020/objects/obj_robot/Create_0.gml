@@ -18,9 +18,10 @@ light_scale_base	= 10;
 light_scale			= light_scale_base;
 lights				= light_double_create(x, y);
 repairing			= false;
+move_speed_base		= obj_stats.robot_walk_speed;
 
 // Movement
-move_speed		= 0.5 * (motor_health / 100);
+move_speed		= move_speed_base * (motor_health / 100);
 
 // Pathingw
 dungeon_path	= path_add();

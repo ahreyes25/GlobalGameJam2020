@@ -10,7 +10,7 @@ for (var i = 0; i < 100; i++) {
 }
 */
 
-while (global.n_spawners < global.n_spawns_allowed) {
+while (obj_stats.n_spawners < obj_stats.n_spawns_allowed) {
 	var _index	= irandom(ds_list_size(global.open_spaces) -1);
 	var _space	= global.open_spaces[| _index];
 	var _x		= _space[0];

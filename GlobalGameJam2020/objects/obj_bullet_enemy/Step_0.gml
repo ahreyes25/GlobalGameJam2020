@@ -35,3 +35,6 @@ if (defined(_robot)) {
 	animate_object_create(x, y, spr_muzzle_flash, _robot.depth - 1, 1, 2, id, 1, false);
 	instance_destroy();
 }
+
+if (exists(obj_player) && obj_player.state == player_state_cry)
+	visible = false;

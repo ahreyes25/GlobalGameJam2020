@@ -12,7 +12,8 @@
         "4ec24e3a-2475-4136-b6b8-f463d7da3763",
         "aca387a2-4665-47c3-8bab-c39829818c5d",
         "05227d2b-e5a4-448a-9f6a-fd2c08ca5e6d",
-        "045fcb39-32af-460d-be49-0f35f5fc41cc"
+        "045fcb39-32af-460d-be49-0f35f5fc41cc",
+        "2eff71da-decb-44a6-a2ac-b9468f204d43"
     ],
     "filterType": "GMSprite",
     "folderName": "Dungeon Sprites",

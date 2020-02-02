@@ -48,3 +48,6 @@ if (shoot) {
 	
 	shoot = false;
 }
+
+if (exists(obj_player) && obj_player.state == player_state_cry)
+	visible = false;

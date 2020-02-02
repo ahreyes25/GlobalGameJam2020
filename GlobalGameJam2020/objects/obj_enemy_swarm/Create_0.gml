@@ -1,4 +1,4 @@
 event_inherited();
 
-life	= 2;
-damage	= 10;
+life	= obj_stats.enemy_swarm_life;
+damage	= obj_stats.enemy_explosion_damage;

@@ -44,3 +44,6 @@ if (defined(_spawn)) {
 	animate_object_create(x, y, spr_muzzle_flash, _spawn.depth - 1, 1, 2, id, 1, false);
 	instance_destroy();
 }
+
+if (exists(obj_player) && obj_player.state == player_state_cry)
+	visible = false;

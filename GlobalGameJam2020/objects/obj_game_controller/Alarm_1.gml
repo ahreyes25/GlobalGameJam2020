@@ -1,2 +1,2 @@
-/// @description Level Restart
-room_restart();
+/// @description Game Lose
+game_lose();

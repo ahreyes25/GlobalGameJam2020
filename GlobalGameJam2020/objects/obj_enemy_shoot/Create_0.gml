@@ -13,3 +13,4 @@ scale			= 1;
 gun_tip_x		= x;
 gun_tip_y		= y;
 flashing		= false;
+life			= obj_stats.enemy_shoot_life;

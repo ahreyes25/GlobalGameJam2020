@@ -1,11 +1,7 @@
 Total: 8 hrs
-- next level loading (1 hr)
-	-- pass important data to persistant object
-- lose conditions (15 min)
+- show score on game over
+- import music & sounds (30 min)
 - player knockback (20 min)
-- import music & sounds (1 hr -- 30 min)
-- building & exporting (1 hr -- 30 min)
-- score system (30 min -- 15 min)
 - item pickups
 
 Leftover: 4 hrs
@@ -16,6 +12,8 @@ Leftover: 4 hrs
 - portal shadow
 - enemy spawn effect
 - next level doors
+- damage cactus visuals
+- explosion art
 
 - destroy rocks that spawn in robot
 - cactus flash red repeatedly

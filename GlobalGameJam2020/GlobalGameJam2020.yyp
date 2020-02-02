@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "2eff71da-decb-44a6-a2ac-b9468f204d43",
+            "Value": {
+                "id": "dc320bdd-7b4a-444f-88ef-53f085ced0b8",
+                "resourcePath": "sprites\\spr_stairs\\spr_stairs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f577011-7ef9-4eee-9b53-814e8147f443",
             "Value": {
                 "id": "5aae2892-5597-4aaa-8c8c-ac6b17ca085e",
@@ -595,6 +603,14 @@
             "Value": {
                 "id": "f49769c8-aece-41fe-b214-3a04ecb343bc",
                 "resourcePath": "scripts\\camera_reset_room_restrict\\camera_reset_room_restrict.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "51cda538-c328-4575-b956-9270c06dbe7e",
+            "Value": {
+                "id": "dba232cb-8716-43d6-8a9d-fd79fad8e8c5",
+                "resourcePath": "scripts\\next_level\\next_level.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1407,6 +1423,14 @@
             }
         },
         {
+            "Key": "a68660a7-3499-44a4-a135-7ec9f25ff8ca",
+            "Value": {
+                "id": "83b90d9c-aa18-44ec-b4a7-f992a4cc370f",
+                "resourcePath": "scripts\\game_lose\\game_lose.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a77a6469-c616-4b77-b03f-1956da458e5a",
             "Value": {
                 "id": "ab6e051d-b2e5-4103-9a3d-55c00d5a6371",
@@ -1595,6 +1619,14 @@
             "Value": {
                 "id": "8049aefd-8b4e-4f30-bac0-60fe7d0a072c",
                 "resourcePath": "objects\\obj_start\\obj_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bf383fa5-23e7-42f6-bdbd-c3d6f026f290",
+            "Value": {
+                "id": "e78c85b2-7db7-4939-82f7-a1373e31c5cd",
+                "resourcePath": "objects\\obj_stats\\obj_stats.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2259,6 +2291,8 @@
         "902606c0-8e74-4c76-9cc4-d88ac728df52",
         "8c8c4b89-2eb3-4f69-a238-75f085bdc805",
         "b408b435-3908-43ae-8877-c6d15bac6631",
+        "51cda538-c328-4575-b956-9270c06dbe7e",
+        "a68660a7-3499-44a4-a135-7ec9f25ff8ca",
         "6a383d47-b285-474b-b4b1-dde0a922bdd1",
         "b8c481ac-1676-43ed-bc38-4a8fda33ecbc",
         "3f0c3e81-ee5b-43bc-a853-5a1a040e6863",

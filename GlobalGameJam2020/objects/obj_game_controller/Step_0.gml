@@ -12,3 +12,5 @@ if (dungeon_created && !exists(obj_dungeon_generator) && !defined(player)) {
 	
 	dungeon_spawn_enemies();
 }	
+
+show_debug_message("Points: " + string(obj_stats.points));

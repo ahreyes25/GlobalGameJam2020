@@ -27,6 +27,7 @@ if (exists(obj_robot) && obj_robot.plant_health <= 0) {
 	equipped = undefined;
 	camera_set_focus_point(x, y);
 	camera_set_zoom_factor(1);
+	camera_set_cursor_influence(false);
 	return;
 }
 

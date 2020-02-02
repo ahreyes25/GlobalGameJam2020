@@ -1,7 +1,7 @@
 depth_sort();
 
 // Update Properties
-move_speed	= 0.5 * (motor_health / 100);
+move_speed	= move_speed_base * (motor_health / 100);
 light_scale = light_scale_base * (light_health / 100);
 
 for (var i = 0; i < array_length_1d(lights); i++) {

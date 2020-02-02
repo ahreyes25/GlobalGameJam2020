@@ -15,3 +15,6 @@ if (life <= 0) {
 	camera_set_screen_shake();
 	return
 }
+
+if (exists(obj_player) && obj_player.state == player_state_cry)
+	visible = false;

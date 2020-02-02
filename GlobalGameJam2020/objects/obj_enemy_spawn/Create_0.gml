@@ -1,5 +1,5 @@
-life		= 20;
-spawn_time	= 60 * 5;
+life		= obj_stats.enemy_spawn_life;
+spawn_time	= obj_stats.enemy_spawn_time;
 alarm[0]	= irandom(spawn_time);
 flashing	= false;
 image_xscale	= 0.75;
@@ -20,4 +20,4 @@ if (_shoot) {
 	return;
 }
 
-global.n_spawners++;
+obj_stats.n_spawners++;

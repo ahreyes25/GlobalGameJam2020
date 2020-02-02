@@ -2,6 +2,7 @@ randomize();
 
 global_game_data();
 global_player_data();
+instance_create_layer(0, 0, "Controllers", obj_stats);
 
 debug				= instance_create_layer(0, 0, "Controllers", obj_debug);
 dungeon_created		= false;
