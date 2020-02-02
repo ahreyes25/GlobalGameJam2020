@@ -22,3 +22,5 @@ _light.alpha			= _alpha;
 _light.flicker			= _flicker;
 _light.flicker_amount	= _flicker_amount;
 _light.flicker_scale	= _scale;
+
+return _light;

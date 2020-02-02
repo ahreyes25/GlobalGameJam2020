@@ -1,23 +1,27 @@
 state			= robot_state_get_dungeon_path;
 target			= undefined;
+facing			= DIR.RIGHT;
+scale			= 1;
 
 // Stats
-glass_health	= 100;
-shields_health	= 100;	
+plant_health	= 100;
+glass_health	= 100;	
 motor_health	= 100;
 battery_health	= 100;
 nav_health		= 100;
 light_health	= 100;
 
 // Other
-flashing		= false;
-flash_time		= 3;
-lights			= light_double_create(x, y - sprite_height / 2);
+flashing			= false;
+flash_time			= 3;
+light_scale_base	= 10;
+light_scale			= light_scale_base;
+lights				= light_double_create(x, y);
 
 // Movement
 move_speed		= 0.5 * (motor_health / 100);
 
-// Pathing
+// Pathingw
 dungeon_path	= path_add();
 path_set_closed(dungeon_path, false);
 path_set_kind(dungeon_path, false);

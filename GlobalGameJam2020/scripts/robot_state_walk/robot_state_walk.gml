@@ -1,4 +1,7 @@
-path_speed = move_speed;
+if (current_frame() == 4)
+	path_speed = 0;
+else
+	path_speed = move_speed;
 
 if (path_position >= 1) {
 	path_end();

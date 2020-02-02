@@ -6,6 +6,7 @@
     "children": [
         "852aabe0-ada0-4ba2-a181-6b78431d64e8",
         "08e303d6-cd12-4aa6-9172-490f354a148a",
+        "aef10a15-108f-4c41-aab7-da73b76e8571",
         "8d56865c-d5ab-403c-aee2-13fa179d5738"
     ],
     "filterType": "GMShader",

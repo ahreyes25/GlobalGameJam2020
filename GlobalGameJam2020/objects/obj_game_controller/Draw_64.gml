@@ -9,8 +9,8 @@ if (exists(obj_robot)) {
 	var _bar_space	= 2;
 	
 	var _colors = [
-		make_color_rgb(190, 74, 47),	// shield color
-		make_color_rgb(61, 137, 71),	// glass color
+		make_color_rgb(140, 150, 179),	// glass color
+		make_color_rgb(61, 137, 71),	// plant color
 		make_color_rgb(99, 198, 77),	// battery color
 		make_color_rgb(89, 104, 134),	// motor color
 		make_color_rgb(228, 166, 114),	// nav color
@@ -18,8 +18,8 @@ if (exists(obj_robot)) {
 	];
 	
 	var _values = [
-		obj_robot.shields_health,
 		obj_robot.glass_health,
+		obj_robot.plant_health,
 		obj_robot.battery_health,
 		obj_robot.motor_health,
 		obj_robot.nav_health,

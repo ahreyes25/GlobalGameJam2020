@@ -5,6 +5,17 @@ image_yscale = scale;
 #endregion
 mask_index = spr_player_mask;
 
-draw_sprite_ext(spr_shadow, 0, x, y, 1, 1, 0, c_white, 1);
+switch (state) {
+	case player_state_idle:
+		sprite_index = spr_player_idle;
+		image_speed = 1.0;
+		break;
+		
+	case player_state_run:
+		sprite_index = spr_player_run;
+		image_speed = 1.0;
+		break;	
+}
+
+//draw_sprite_ext(spr_shadow, 0, x, y, 1, 1, 0, c_white, 1);
 draw_self();
-draw_text(x, y, script_get_name(state));
