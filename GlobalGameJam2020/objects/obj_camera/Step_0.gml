@@ -32,4 +32,5 @@ if (mouse_wheel_down())
 	camera_set_zoom_factor(camera_get_zoom_factor() * 0.9);
 if (mouse_wheel_up())
 	camera_set_zoom_factor(camera_get_zoom_factor() * 1.1);
+show_debug_message(zoom_factor);
 #endregion

@@ -19,7 +19,7 @@ lock_time_x			= undefined;
 lock_time_y			= undefined;
 
 // Zoom
-zoom_factor_base	= 1;
+zoom_factor_base	= 1.7;
 zoom_factor			= zoom_factor_base;
 zoom_factor_target	= undefined;
 zoom_time			= undefined;

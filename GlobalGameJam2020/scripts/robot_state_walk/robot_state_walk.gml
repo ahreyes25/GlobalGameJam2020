@@ -1,4 +1,4 @@
-if (current_frame() == 4)
+if (current_frame() == 4 || battery_health <= 0)
 	path_speed = 0;
 else
 	path_speed = move_speed;

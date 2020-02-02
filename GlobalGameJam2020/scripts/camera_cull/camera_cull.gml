@@ -1,4 +1,4 @@
-var _padding = UNIT_SIZE * 3;
+var _padding = UNIT_SIZE * 6;
 if (
 	x >= (obj_camera.x - obj_camera.width  / 2) - _padding &&
 	x <= (obj_camera.x + obj_camera.width  / 2) + _padding &&
