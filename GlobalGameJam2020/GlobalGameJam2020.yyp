@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0703d2ed-1688-4956-a189-4e7c1bffae85",
+            "Value": {
+                "id": "c648e749-2313-4bca-a17b-4a40d1b8a320",
+                "resourcePath": "sounds\\sfx_sounds_repair_select\\sfx_sounds_repair_select.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0743f0dd-a32e-40bd-9d23-6e2186586f42",
             "Value": {
                 "id": "522f04e5-c1d8-4fd8-ae87-1d4b532379f8",
@@ -188,6 +196,14 @@
                 "id": "be514ca2-8354-4e4f-ad00-238b869c38e7",
                 "resourcePath": "objects\\obj_rock_bit\\obj_rock_bit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1bde587f-85ab-40ac-b22b-0a34f0261919",
+            "Value": {
+                "id": "98946103-b992-46f3-9d14-7900737173e4",
+                "resourcePath": "sounds\\sfx_sounds_falling12\\sfx_sounds_falling12.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -636,6 +652,14 @@
                 "id": "f49769c8-aece-41fe-b214-3a04ecb343bc",
                 "resourcePath": "scripts\\camera_reset_room_restrict\\camera_reset_room_restrict.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "516feafe-78e8-42dd-b556-9e1410b0b377",
+            "Value": {
+                "id": "e80e01a8-3e21-4770-98a5-295d68ec4919",
+                "resourcePath": "sounds\\sfx_sounds_repair_wire\\sfx_sounds_repair_wire.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1823,6 +1847,14 @@
             }
         },
         {
+            "Key": "c76a1f6e-77ea-486d-8699-62488d115750",
+            "Value": {
+                "id": "9bb97c75-a8fe-4bcc-b0bc-8d0b8ac2eed2",
+                "resourcePath": "sprites\\spr_f\\spr_f.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca9fad20-714e-4035-bc97-27a75f99638c",
             "Value": {
                 "id": "d15de8dd-9244-4ae4-adf9-33d2ac9b9035",
@@ -1844,6 +1876,14 @@
                 "id": "087b806d-cc58-4c69-a734-bc3c3c4038e0",
                 "resourcePath": "scripts\\dungeon_create_room\\dungeon_create_room.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cbec5095-eb29-499f-bb04-b8fb415d31f1",
+            "Value": {
+                "id": "9a472e46-eed0-4494-9d4b-35d4b9d79461",
+                "resourcePath": "sounds\\sfx_sounds_error3\\sfx_sounds_error3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2071,6 +2111,14 @@
             }
         },
         {
+            "Key": "dd5f418c-4e82-4e2d-9816-788fe0c0317e",
+            "Value": {
+                "id": "f0dd4ab4-def6-4daa-8ca0-acdd700f6483",
+                "resourcePath": "sounds\\sfx_sounds_powerup16\\sfx_sounds_powerup16.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dd9b7435-010f-4857-88a3-6ce329d35ba0",
             "Value": {
                 "id": "0c0ae750-7d1a-47b2-ab36-be489a2e6782",
@@ -2180,6 +2228,14 @@
                 "id": "f141ca20-2efe-4ab0-8778-d268d058e34f",
                 "resourcePath": "scripts\\_camera_apply_cursor_influence\\_camera_apply_cursor_influence.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e6fdb4a3-e8b0-41ea-89a6-7541ed25bfc7",
+            "Value": {
+                "id": "9c0ac603-3f76-44b1-beb1-ee75967ed4dd",
+                "resourcePath": "sounds\\sfx_sounds_repair_success\\sfx_sounds_repair_success.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2363,6 +2419,14 @@
             "Value": {
                 "id": "9dc30b63-8fb2-45cb-b506-989d05ced420",
                 "resourcePath": "sounds\\sfx_deathscream_human4\\sfx_deathscream_human4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f8582134-d3c4-4603-ab16-042f9db9635c",
+            "Value": {
+                "id": "a3a5bf76-4d04-44e2-b02c-a00f41bb21c2",
+                "resourcePath": "sounds\\sfx_music_main_2\\sfx_music_main_2.yy",
                 "resourceType": "GMSound"
             }
         },

@@ -20,12 +20,16 @@ if (mouse_check_button_pressed(mb_left)) {
 		if (mouse_x > _lx - _cush && mouse_x < _lx + _cush && mouse_y > _ly - _cush && mouse_y < _ly + _cush) {
 			_node_left.clicked = true;
 			node_clicked_on = _node_left;
+			audio_play_sound(sfx_sounds_repair_select, 0, 0);
+			audio_play_sound(sfx_sounds_repair_wire, 0, 0);
 			break;
 		}
 		// Clicking On Right Node
 		else if (mouse_x > _rx - _cush && mouse_x < _rx + _cush && mouse_y > _ry - _cush && mouse_y < _ry + _cush) {
 			_node_right.clicked = true;
 			node_clicked_on = _node_right;
+			audio_play_sound(sfx_sounds_repair_select, 0, 0);
+			audio_play_sound(sfx_sounds_repair_wire, 0, 0);
 			break;
 		}
 	}
@@ -50,6 +54,8 @@ else if (mouse_check_button_released(mb_left)) {
 				_node_left.connected = true;
 				_node_left.node_pair.connected = true;
 				nodes_connected++;
+				audio_play_sound(sfx_sounds_repair_success, 0, 0);
+				audio_play_sound(sfx_sounds_repair_select, 0, 0);
 				break;
 			}
 		}
@@ -59,9 +65,13 @@ else if (mouse_check_button_released(mb_left)) {
 				_node_right.connected = true;
 				_node_right.node_pair.connected = true;
 				nodes_connected++;
+				audio_play_sound(sfx_sounds_repair_success, 0, 0);
+				audio_play_sound(sfx_sounds_repair_select, 0, 0);
 				break;
 			}
 		}
+		else 
+			audio_play_sound(sfx_sounds_error3, 0, 0);
 	}
 	
 	// Reset Node Clicked On
@@ -93,6 +103,7 @@ if (nodes_connected == ds_list_size(left_nodes)) {
 		path_index_current = 0;
 		state = robot_state_get_dungeon_path;
 	}
+	audio_play_sound(sfx_sounds_powerup16, 0, 0);
 }
 
 

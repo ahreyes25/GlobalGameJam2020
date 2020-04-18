@@ -31,3 +31,7 @@ switch (state) {
 draw_self();
 
 //draw_text(x, y + 10, script_get_name(state));
+
+if (touching_robot && exists(obj_robot)) {
+	draw_sprite_ext(spr_f, 0, obj_robot.x + 64, obj_robot.y - 64, 0.5, 0.5, 0, c_white, 0.75);	
+}

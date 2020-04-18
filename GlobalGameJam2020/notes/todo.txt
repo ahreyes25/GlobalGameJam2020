@@ -1,9 +1,9 @@
 Total:
 - player knockback (20 min)
+- scroll weapons
 
 Leftover:
 - crawl under robot (30 min)
-- player rolling (30 min)
 - have bandits shoot rocks
 - portal crumble
 - portal shadow

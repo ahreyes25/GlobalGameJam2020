@@ -32,7 +32,7 @@ if (exists(obj_robot) && obj_robot.plant_health <= 0) {
 }
 
 if (exists(obj_robot)) {
-	touching_robot = (point_distance(x, y, obj_robot.x, obj_robot.y) < 64);
+	touching_robot = (point_distance(x, y, obj_robot.x, obj_robot.y) < 128);
 	#region Start Repairing
 	if (keyboard_check_pressed(ord("F")) && !repairing) {
 		if (touching_robot) {

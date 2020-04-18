@@ -15,3 +15,9 @@ if (keyboard_check(vk_shift)) {
 		}
 	}
 }
+else {
+	if (keyboard_check_pressed(vk_escape)) {
+		reset_level();
+		game_lose();
+	}
+}
